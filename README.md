@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 defcoin integration/staging tree
 ================================
 
@@ -74,6 +73,4 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     ./defcoin-qt_test
 
 =======
-# defcoin
-the full live version of defcoin updated with the new litecoin core
->>>>>>> adc901afe32eabd2b629a1583ae582a1843661bc
+
