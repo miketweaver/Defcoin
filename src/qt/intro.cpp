@@ -127,11 +127,7 @@ Intro::Intro(QWidget *parent) :
         .arg(tr(PACKAGE_NAME))
         .arg(BLOCK_CHAIN_SIZE)
         .arg(2009)
-<<<<<<< HEAD
         .arg(tr("Defcoin"))
-=======
-        .arg(tr("Litecoin"))
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     );
     ui->lblExplanation2->setText(ui->lblExplanation2->text().arg(tr(PACKAGE_NAME)));
 
@@ -150,11 +146,7 @@ Intro::Intro(QWidget *parent) :
     }
     requiredSpace += CHAIN_STATE_SIZE;
     ui->sizeWarningLabel->setText(
-<<<<<<< HEAD
         tr("%1 will download and store a copy of the Defcoin block chain.").arg(tr(PACKAGE_NAME)) + " " +
-=======
-        tr("%1 will download and store a copy of the Litecoin block chain.").arg(tr(PACKAGE_NAME)) + " " +
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         storageRequiresMsg.arg(requiredSpace) + " " +
         tr("The wallet will also be stored in this directory.")
     );

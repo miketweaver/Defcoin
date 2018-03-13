@@ -199,11 +199,7 @@ def main():
     logging.basicConfig(format='%(message)s', level=logging_level)
 
     # Create base test directory
-<<<<<<< HEAD
     tmpdir = "%s/defcoin_test_runner_%s" % (args.tmpdirprefix, datetime.datetime.now().strftime("%Y%m%d_%H%M%S"))
-=======
-    tmpdir = "%s/litecoin_test_runner_%s" % (args.tmpdirprefix, datetime.datetime.now().strftime("%Y%m%d_%H%M%S"))
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     os.makedirs(tmpdir)
 
     logging.debug("Temporary test directory at %s" % tmpdir)
@@ -219,11 +215,7 @@ def main():
         sys.exit(0)
 
     if not (enable_wallet and enable_utils and enable_bitcoind):
-<<<<<<< HEAD
         print("No functional tests to run. Wallet, utils, and defcoind must all be enabled")
-=======
-        print("No functional tests to run. Wallet, utils, and litecoind must all be enabled")
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         print("Rerun `configure` with -enable-wallet, -with-utils and -with-daemon and rerun make")
         sys.exit(0)
 
@@ -277,13 +269,8 @@ def main():
 def run_tests(test_list, src_dir, build_dir, exeext, tmpdir, jobs=1, enable_coverage=False, args=[]):
     # Warn if bitcoind is already running (unix only)
     try:
-<<<<<<< HEAD
         if subprocess.check_output(["pidof", "defcoind"]) is not None:
             print("%sWARNING!%s There is already a defcoind process running on this system. Tests may fail unexpectedly due to resource contention!" % (BOLD[1], BOLD[0]))
-=======
-        if subprocess.check_output(["pidof", "litecoind"]) is not None:
-            print("%sWARNING!%s There is already a litecoind process running on this system. Tests may fail unexpectedly due to resource contention!" % (BOLD[1], BOLD[0]))
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     except (OSError, subprocess.SubprocessError):
         pass
 
@@ -293,15 +280,9 @@ def run_tests(test_list, src_dir, build_dir, exeext, tmpdir, jobs=1, enable_cove
         print("%sWARNING!%s There is a cache directory here: %s. If tests fail unexpectedly, try deleting the cache directory." % (BOLD[1], BOLD[0], cache_dir))
 
     #Set env vars
-<<<<<<< HEAD
     if "DEFCOIND" not in os.environ:
         os.environ["DEFCOIND"] = build_dir + '/src/defcoind' + exeext
         os.environ["DEFCOINCLI"] = build_dir + '/src/defcoin-cli' + exeext
-=======
-    if "LITECOIND" not in os.environ:
-        os.environ["LITECOIND"] = build_dir + '/src/litecoind' + exeext
-        os.environ["LITECOINCLI"] = build_dir + '/src/litecoin-cli' + exeext
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
     tests_dir = src_dir + '/test/functional/'
 
@@ -484,11 +465,7 @@ class RPCCoverage(object):
     Coverage calculation works by having each test script subprocess write
     coverage files into a particular directory. These files contain the RPC
     commands invoked during testing, as well as a complete listing of RPC
-<<<<<<< HEAD
     commands per `defcoin-cli help` (`rpc_interface.txt`).
-=======
-    commands per `litecoin-cli help` (`rpc_interface.txt`).
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
     After all tests complete, the commands run are combined and diff'd against
     the complete list to calculate uncovered RPC commands.

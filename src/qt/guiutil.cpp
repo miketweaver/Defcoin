@@ -127,11 +127,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-<<<<<<< HEAD
     widget->setPlaceholderText(QObject::tr("Enter a Defcoin address (e.g. %1)").arg(
-=======
-    widget->setPlaceholderText(QObject::tr("Enter a Litecoin address (e.g. %1)").arg(
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         QString::fromStdString(DummyAddress(Params()))));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
@@ -150,11 +146,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // return if URI is not valid or is no bitcoin: URI
-<<<<<<< HEAD
     if(!uri.isValid() || uri.scheme() != QString("defcoin"))
-=======
-    if(!uri.isValid() || uri.scheme() != QString("litecoin"))
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         return false;
 
     SendCoinsRecipient rv;
@@ -218,13 +210,9 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-<<<<<<< HEAD
     if(uri.startsWith("defcoin://", Qt::CaseInsensitive))
-=======
-    if(uri.startsWith("litecoin://", Qt::CaseInsensitive))
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     {
-        uri.replace(0, 11, "litecoin:");
+        uri.replace(0, 11, "defcoin:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -232,11 +220,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-<<<<<<< HEAD
     QString ret = QString("defcoin:%1").arg(info.address);
-=======
-    QString ret = QString("litecoin:%1").arg(info.address);
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     int paramCount = 0;
 
     if (info.amount)
@@ -631,17 +615,10 @@ fs::path static StartupShortcutPath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-<<<<<<< HEAD
         return GetSpecialFolderPath(CSIDL_STARTUP) / "Defcoin.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
         return GetSpecialFolderPath(CSIDL_STARTUP) / "Defcoin (testnet).lnk";
     return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Defcoin (%s).lnk", chain);
-=======
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Litecoin.lnk";
-    if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Litecoin (testnet).lnk";
-    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Litecoin (%s).lnk", chain);
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 }
 
 bool GetStartOnSystemStartup()
@@ -736,13 +713,8 @@ fs::path static GetAutostartFilePath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-<<<<<<< HEAD
         return GetAutostartDir() / "defcoin.desktop";
     return GetAutostartDir() / strprintf("defcoin-%s.lnk", chain);
-=======
-        return GetAutostartDir() / "litecoin.desktop";
-    return GetAutostartDir() / strprintf("litecoin-%s.lnk", chain);
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 }
 
 bool GetStartOnSystemStartup()
@@ -785,15 +757,9 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-<<<<<<< HEAD
             optionFile << "Name=Defcoin\n";
         else
             optionFile << strprintf("Name=Defcoin (%s)\n", chain);
-=======
-            optionFile << "Name=Litecoin\n";
-        else
-            optionFile << strprintf("Name=Litecoin (%s)\n", chain);
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", gArgs.GetBoolArg("-testnet", false), gArgs.GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

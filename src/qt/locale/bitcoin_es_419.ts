@@ -42,13 +42,8 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Estas son sus direcciones de Defcoin para enviar sus pagos. Siempre revise el monto y la dirección recibida antes de enviar monedas.</translation>
-=======
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones de Litecoin para enviar sus pagos. Siempre revise el monto y la dirección recibida antes de enviar monedas.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     </context>
 <context>

@@ -190,13 +190,8 @@
         <translation>დისკზე ბლოკების რეინდექსაცია...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>მონეტების გაგზავნა Defcoin-მისამართზე</translation>
-=======
-        <source>Send coins to a Litecoin address</source>
-        <translation>მონეტების გაგზავნა Litecoin-მისამართზე</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -219,13 +214,8 @@
         <translation>&amp;ვერიფიკაცია</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
-=======
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -252,21 +242,12 @@
         <translation>თქვენი საფულის პირადი გასაღებების დაშიფრვა</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>მესიჯებზე ხელმოწერა თქვენი Defcoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Defcoin-მისამართით</translation>
-=======
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>მესიჯებზე ხელმოწერა თქვენი Litecoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Litecoin-მისამართით</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -285,13 +266,8 @@
         <translation>ბარათების პანელი</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და defcoin: ბმულები)</translation>
-=======
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და litecoin: ბმულები)</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -302,13 +278,8 @@
         <translation>გამოყენებული მიღების მისამართებისა და ნიშნულების სიის ჩვენება</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>defcoin: URI-ის ან გადახდის მოთხოვნის გახსნა</translation>
-=======
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>litecoin: URI-ის ან გადახდის მოთხოვნის გახსნა</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -671,13 +642,8 @@
         <translation>დაუდასტურებელი ხურდის გამოყენების აკრძალვის შემდეგ მათი გამოყენება შეუძლებელი იქნება, სანამ ტრანსაქციას არ ექნება ერთი დასტური მაინც. ეს აისახება თქვენი ნაშთის დათვლაზეც.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>როუტერში Defcoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
-=======
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>როუტერში Litecoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -783,13 +749,8 @@
         <translation>ფორმა</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Defcoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
-=======
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Litecoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Available:</source>
@@ -993,11 +954,7 @@
         <translation>ად&amp;რე გამოყენებული მიღების მისამართის გამოყენება (არ არის რეკომენდებული)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Defcoin network.</source>
-=======
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
@@ -1213,11 +1170,7 @@
         <translation>შეიყვანეთ ამ მისამართის ნიშნული გამოყენებული მისამართების სიაში დასამატებლად</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A message that was attached to the defcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Defcoin network.</source>
-=======
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
@@ -1278,11 +1231,7 @@
         <translation>მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
-=======
-        <source>Sign the message to prove you own this Litecoin address</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
     </message>
     <message>
@@ -1302,13 +1251,8 @@
         <translation>მესიჯის &amp;ვერიფიკაცია</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
         <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Defcoin-მისამართით</translation>
-=======
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Litecoin-მისამართით</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1392,13 +1336,8 @@
         <translation>რეზიდენტულად გაშვება და კომანდების მიღება</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Core</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

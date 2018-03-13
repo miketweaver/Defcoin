@@ -265,11 +265,7 @@ Copyright
 ---------
 Copyright 2018 the Defcoin Core Developers
 
-<<<<<<< HEAD
 - defcoin: Copyright 2018 The Litecoin Core Developers (MIT License)
-=======
-- litecoin: Copyright 2018 The Litecoin Core Developers (MIT License)
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 - bitcoin: Copyright (c) 2009-2018 Bitcoin Core Developers (MIT License)
 
 By contributing to this repository, you agree to license your work under the 

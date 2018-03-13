@@ -62,21 +62,12 @@
         <translation>Адрес за получаване</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Тези са вашите Defcoin адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Това са вашите Defcoin адреси за получаване на монети. Препоръчително е да ползвате нов адрес на всяка транзакция.</translation>
-=======
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тези са вашите Litecoin адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
-    </message>
-    <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Litecoin адреси за получаване на монети. Препоръчително е да ползвате нов адрес на всяка транзакция.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -429,13 +420,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin ядро</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Litecoin ядро</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     </context>
 </TS>

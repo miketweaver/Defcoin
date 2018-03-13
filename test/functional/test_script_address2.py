@@ -4,11 +4,7 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #
-<<<<<<< HEAD
 # Test new Defcoin multisig prefix functionality.
-=======
-# Test new Litecoin multisig prefix functionality.
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 #
 
 from test_framework.test_framework import BitcoinTestFramework

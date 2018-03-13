@@ -107,11 +107,7 @@ void EditAddressDialog::accept()
             break;
         case AddressTableModel::INVALID_ADDRESS:
             QMessageBox::warning(this, windowTitle(),
-<<<<<<< HEAD
                 tr("The entered address \"%1\" is not a valid Defcoin address.").arg(ui->addressEdit->text()),
-=======
-                tr("The entered address \"%1\" is not a valid Litecoin address.").arg(ui->addressEdit->text()),
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
                 QMessageBox::Ok, QMessageBox::Ok);
             break;
         case AddressTableModel::DUPLICATE_ADDRESS:

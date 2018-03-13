@@ -2,11 +2,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-<<<<<<< HEAD
 #define BOOST_TEST_MODULE Defcoin Test Suite
-=======
-#define BOOST_TEST_MODULE Litecoin Test Suite
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
 #include "net.h"
 

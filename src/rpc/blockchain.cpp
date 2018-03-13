@@ -958,13 +958,8 @@ UniValue gettxout(const JSONRPCRequest& request)
             "     \"hex\" : \"hex\",        (string) \n"
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
-<<<<<<< HEAD
             "     \"addresses\" : [          (array of string) array of defcoin addresses\n"
             "        \"address\"     (string) defcoin address\n"
-=======
-            "     \"addresses\" : [          (array of string) array of litecoin addresses\n"
-            "        \"address\"     (string) litecoin address\n"
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
             "        ,...\n"
             "     ]\n"
             "  },\n"

@@ -51,11 +51,7 @@
     </message>
     <message>
         <source>C&amp;hoose</source>
-<<<<<<< HEAD
         <translation>Dies sind deine Defcoin Adressen zum Senden von Zahlungsmitteln.
-=======
-        <translation>Dies sind deine Litecoin Adressen zum Senden von Zahlungsmitteln.
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 Überprüfe immer die Menge, sowie die Empfänger-Adresse vor dem Senden von Coins.</translation>
     </message>
     <message>

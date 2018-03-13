@@ -435,11 +435,7 @@ d2hj739GDLz0b5KuJ2SG6VknMRQM976w/m2qlq0ccVGaaZ2zMIGfpzL3p6adwx/5\
 ";
 
 //
-<<<<<<< HEAD
 // Payment request with amount overflow (amount is set to 84000001 DFC)
-=======
-// Payment request with amount overflow (amount is set to 84000001 LTC)
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 //
 const char* paymentrequest5_cert2_BASE64 =
 "\

@@ -87,13 +87,8 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-<<<<<<< HEAD
 const char * const BITCOIN_CONF_FILENAME = "defcoin.conf";
 const char * const BITCOIN_PID_FILENAME = "defcoin.pid";
-=======
-const char * const BITCOIN_CONF_FILENAME = "litecoin.conf";
-const char * const BITCOIN_PID_FILENAME = "litecoin.pid";
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
 ArgsManager gArgs;
 bool fPrintToConsole = false;
@@ -510,7 +505,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "litecoin";
+    const char* pszModule = "defcoin";
 #endif
     if (pex)
         return strprintf(
@@ -535,11 +530,7 @@ fs::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-<<<<<<< HEAD
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Defcoin";
-=======
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Litecoin";
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -549,14 +540,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-<<<<<<< HEAD
     return pathRet / "Library/Application Support/Defcoin";
-=======
-    return pathRet / "Library/Application Support/Litecoin";
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 #else
     // Unix
-    return pathRet / ".litecoin";
+    return pathRet / ".defcoin";
 #endif
 #endif
 }

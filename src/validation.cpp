@@ -50,11 +50,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-<<<<<<< HEAD
 # error "Defcoin cannot be compiled without assertions."
-=======
-# error "Litecoin cannot be compiled without assertions."
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 #endif
 
 /**
@@ -97,11 +93,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-<<<<<<< HEAD
 const std::string strMessageMagic = "Defcoin Signed Message:\n";
-=======
-const std::string strMessageMagic = "Litecoin Signed Message:\n";
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
 // Internal stuff
 namespace {
@@ -868,11 +860,7 @@ static bool AcceptToMemoryPoolWorker(const CChainParams& chainparams, CTxMemPool
         // Remove conflicting transactions from the mempool
         for (const CTxMemPool::txiter it : allConflicting)
         {
-<<<<<<< HEAD
             LogPrint(BCLog::MEMPOOL, "replacing tx %s with %s for %s DFC additional fees, %d delta bytes\n",
-=======
-            LogPrint(BCLog::MEMPOOL, "replacing tx %s with %s for %s LTC additional fees, %d delta bytes\n",
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
                     it->GetTx().GetHash().ToString(),
                     hash.ToString(),
                     FormatMoney(nModifiedFees - nConflictingFees),

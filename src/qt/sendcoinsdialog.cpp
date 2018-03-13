@@ -176,11 +176,7 @@ void SendCoinsDialog::setModel(WalletModel *_model)
         connect(ui->checkBoxMinimumFee, SIGNAL(stateChanged(int)), this, SLOT(setMinimumFee()));
         connect(ui->checkBoxMinimumFee, SIGNAL(stateChanged(int)), this, SLOT(updateFeeSectionControls()));
         connect(ui->checkBoxMinimumFee, SIGNAL(stateChanged(int)), this, SLOT(coinControlUpdateLabels()));
-<<<<<<< HEAD
        // Defcoin: Disabled RBF UI
-=======
-       // Litecoin: Disabled RBF UI
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
        // connect(ui->optInRBF, SIGNAL(stateChanged(int)), this, SLOT(updateSmartFeeLabel()));
        // connect(ui->optInRBF, SIGNAL(stateChanged(int)), this, SLOT(coinControlUpdateLabels()));
         ui->customFee->setSingleStep(CWallet::GetRequiredFee(1000));
@@ -189,11 +185,7 @@ void SendCoinsDialog::setModel(WalletModel *_model)
         updateSmartFeeLabel();
 
         // set default rbf checkbox state
-<<<<<<< HEAD
         // Defcoin: Disabled RBF UI
-=======
-        // Litecoin: Disabled RBF UI
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         //ui->optInRBF->setCheckState(model->getDefaultWalletRbf() ? Qt::Checked : Qt::Unchecked);
 
         // set the smartfee-sliders default value (wallets default conf.target or last stored value)
@@ -353,11 +345,7 @@ void SendCoinsDialog::on_sendButton_clicked()
         .arg(alternativeUnits.join(" " + tr("or") + "<br />")));
 
     /*
-<<<<<<< HEAD
     Defcoin: Disabled RBF UI
-=======
-    Litecoin: Disabled RBF UI
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     if (ui->optInRBF->isChecked())
     {
         questionString.append("<hr /><span>");
@@ -664,11 +652,7 @@ void SendCoinsDialog::updateCoinControlState(CCoinControl& ctrl)
     // Avoid using global defaults when sending money from the GUI
     // Either custom fee will be used or if not selected, the confirmation target from dropdown box
     ctrl.m_confirm_target = getConfTargetForIndex(ui->confTargetSelector->currentIndex());
-<<<<<<< HEAD
     // Defcoin: Disabled RBF UI
-=======
-    // Litecoin: Disabled RBF UI
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     //ctrl.signalRbf = ui->optInRBF->isChecked();
 }
 
@@ -797,11 +781,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-<<<<<<< HEAD
             ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Defcoin address"));
-=======
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Litecoin address"));
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         }
         else // Valid address
         {

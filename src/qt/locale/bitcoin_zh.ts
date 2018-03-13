@@ -107,11 +107,7 @@
         <translation>仅支付全额的%1</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: Invalid Defcoin address</source>
-=======
-        <source>Warning: Invalid Litecoin address</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>警告：莱特币地址无效</translation>
     </message>
     </context>

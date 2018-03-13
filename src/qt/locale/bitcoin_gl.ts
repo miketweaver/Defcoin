@@ -130,13 +130,8 @@
         <translation>Reindexando bloques no disco...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Enviar moedas a unha dirección Defcoin</translation>
-=======
-        <source>Send coins to a Litecoin address</source>
-        <translation>Enviar moedas a unha dirección Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -159,13 +154,8 @@
         <translation>&amp;Verificar mensaxe...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
-=======
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -192,21 +182,12 @@
         <translation>Encriptar as claves privadas que pertencen ao teu moedeiro</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Asina mensaxes coas túas direccións Defcoin para probar que te pertencen</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Verificar mensaxes para asegurar que foron asinados con direccións Defcoin dadas.</translation>
-=======
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Asina mensaxes coas túas direccións Litecoin para probar que te pertencen</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Litecoin dadas.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -225,13 +206,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Solicitar pagos (xenera códigos QR e defcoin: URIs)</translation>
-=======
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Solicitar pagos (xenera códigos QR e litecoin: URIs)</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -242,13 +218,8 @@
         <translation>Amosar a listaxe de etiquetas e direccións para recibir empregadas</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>Abrir un defcoin: URI ou solicitude de pago</translation>
-=======
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Abrir un litecoin: URI ou solicitude de pago</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -495,13 +466,8 @@
         <translation>Moedeiro</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Abrir automáticamente o porto do cliente Defcoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
-=======
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente o porto do cliente Litecoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -579,13 +545,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Defcoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
-=======
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Litecoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -966,13 +927,8 @@
         <translation>Copiar a sinatura actual ao portapapeis do sistema</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
         <translation>Asina a mensaxe para probar que posees esta dirección Defcoin</translation>
-=======
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Asina a mensaxe para probar que posees esta dirección Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -991,13 +947,8 @@
         <translation>&amp;Verificar Mensaxe</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
         <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Defcoin especificada</translation>
-=======
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Litecoin especificada</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1077,13 +1028,8 @@
         <translation>Executar no fondo como un demo e aceptar comandos</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Core de Defcoin</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Core de Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

@@ -62,21 +62,12 @@
         <translation>Prijímajúce adresy</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Toto sú Vaše Defcoin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Toto sú vaše Defcoin adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
-=======
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Litecoin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
-    </message>
-    <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Litecoin adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -177,13 +168,8 @@
         <translation>Potvrďte zašifrovanie peňaženky</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEFCOINS&lt;/b&gt;!</source>
         <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE DEFCOINY&lt;/b&gt;!</translation>
-=======
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE LITECOINY&lt;/b&gt;!</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -194,13 +180,8 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your defcoins from being stolen by malware infecting your computer.</source>
         <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou defcoinov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
-=======
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou litecoinov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -331,7 +312,6 @@
     <message>
         <source>&amp;Receiving addresses...</source>
         <translation>&amp;Prijímajúce adresy...</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -354,41 +334,12 @@
         <translation>Synchronizujú sa hlavičky (%1%)...</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>Otvoriť &amp;URI...</translation>
-    </message>
-    <message>
-        <source>Click to disable network activity.</source>
-        <translation>Kliknite pre zakázanie sieťovej aktivity.</translation>
-    </message>
-    <message>
-        <source>Network activity disabled.</source>
-        <translation>Sieťová aktivita zakázaná.</translation>
-    </message>
-    <message>
-        <source>Click to enable network activity again.</source>
-        <translation>Kliknite pre povolenie sieťovej aktivity.</translation>
-    </message>
-    <message>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>Synchronizujú sa hlavičky (%1%)...</translation>
-    </message>
-    <message>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Reindexing blocks on disk...</source>
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Poslať defcoins na adresu</translation>
-=======
-        <source>Send coins to a Litecoin address</source>
-        <translation>Poslať litecoins na adresu</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -411,13 +362,8 @@
         <translation>O&amp;veriť správu...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
-=======
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -444,21 +390,12 @@
         <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Podpísať správu s vašou adresou Defcoin aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Overiť či správa bola podpísaná uvedenou Defcoin adresou</translation>
-=======
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou adresou Litecoin aby ste preukázali že ju vlastníte</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Overiť či správa bola podpísaná uvedenou Litecoin adresou</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -477,13 +414,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Vyžiadať platby (vygeneruje QR kódy a defcoin: URI)</translation>
-=======
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a litecoin: URI)</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -494,26 +426,16 @@
         <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>Otvoriť defcoin URI alebo výzvu k platbe</translation>
-=======
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Otvoriť litecoin URI alebo výzvu k platbe</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message numerus="yes">
-<<<<<<< HEAD
         <source>%n active connection(s) to Defcoin network</source>
         <translation><numerusform>%n aktívne pripojenie do siete Defcoin</numerusform><numerusform>%n aktívne pripojenia do siete Defcoin</numerusform><numerusform>%n aktívnych pripojení do siete Defcoin</numerusform></translation>
-=======
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n aktívne pripojenie do siete Litecoin</numerusform><numerusform>%n aktívne pripojenia do siete Litecoin</numerusform><numerusform>%n aktívnych pripojení do siete Litecoin</numerusform></translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -556,13 +478,8 @@
         <translation>Aktualizovaný</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Defcoin command-line options</source>
         <translation>Ukáž %1 zoznam možných nastavení Defcoinu pomocou príkazového riadku</translation>
-=======
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>Ukáž %1 zoznam možných nastavení Litecoinu pomocou príkazového riadku</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 client</source>
@@ -631,13 +548,8 @@
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A fatal error occurred. Defcoin can no longer continue safely and will quit.</source>
         <translation>Vyskytla sa kritická chyba. Defcoin nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
-=======
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Vyskytla sa kritická chyba. Litecoin nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
 </context>
 <context>
@@ -830,13 +742,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Defcoin address.</source>
         <translation>Vložená adresa "%1" nieje platnou adresou Defcoin.</translation>
-=======
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Vložená adresa "%1" nieje platnou adresou Litecoin.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -942,7 +849,6 @@
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
         <translation>Keďže toto je prvé spustenie programu, môžete si vybrať, kam %1 bude ukladať vaše údaje.</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>%1 will download and store a copy of the Defcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
@@ -1832,897 +1738,6 @@
         <translation>%1 GB</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 stiahne a uloží kópiu Litecoin block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
-    </message>
-    <message>
-        <source>Use the default data directory</source>
-        <translation>Použiť predvolený dátový adresár</translation>
-    </message>
-    <message>
-        <source>Use a custom data directory:</source>
-        <translation>Použiť vlastný dátový adresár:</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Chyba: Zadaný priečinok pre dáta "%1" nemôže byť vytvorený.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Chyba</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB voľného miesta</numerusform><numerusform>%n GB voľného miesta</numerusform><numerusform>%n GB voľného miesta</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(z %n GB potrebného)</numerusform><numerusform>(z %n GB potrebných)</numerusform><numerusform>(z %n GB potrebných)</numerusform></translation>
-    </message>
-</context>
-<context>
-    <name>ModalOverlay</name>
-    <message>
-        <source>Form</source>
-        <translation>Forma</translation>
-    </message>
-    <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou litecoin, ako je rozpísané nižšie.</translation>
-    </message>
-    <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Pokus o minutie litecoinov, ktoré sú ovplyvnené ešte nezobrazenými transakciami, nebude sieťou akceptovaný.</translation>
-    </message>
-    <message>
-        <source>Number of blocks left</source>
-        <translation>Počet zostávajúcich blokov</translation>
-    </message>
-    <message>
-        <source>Unknown...</source>
-        <translation>Neznáme...</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Čas posledného bloku</translation>
-    </message>
-    <message>
-        <source>Progress</source>
-        <translation>Postup synchronizácie</translation>
-    </message>
-    <message>
-        <source>Progress increase per hour</source>
-        <translation>Prírastok postupu za hodinu</translation>
-    </message>
-    <message>
-        <source>calculating...</source>
-        <translation>počíta sa...</translation>
-    </message>
-    <message>
-        <source>Estimated time left until synced</source>
-        <translation>Odhadovaný čas do ukončenia synchronizácie</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Skryť</translation>
-    </message>
-    <message>
-        <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Neznámy. Synchronizujú sa hlavičky (%1)...</translation>
-    </message>
-</context>
-<context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Open URI</source>
-        <translation>Otvoriť URI</translation>
-    </message>
-    <message>
-        <source>Open payment request from URI or file</source>
-        <translation>Otvoriť požiadavku na zaplatenie z URI alebo súboru</translation>
-    </message>
-    <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
-    </message>
-    <message>
-        <source>Select payment request file</source>
-        <translation>Vyberte súbor s výzvou k platbe</translation>
-    </message>
-    <message>
-        <source>Select payment request file to open</source>
-        <translation>Vyberte ktorý súbor s výzvou na platbu otvoriť</translation>
-    </message>
-</context>
-<context>
-    <name>OptionsDialog</name>
-    <message>
-        <source>Options</source>
-        <translation>Možnosti</translation>
-    </message>
-    <message>
-        <source>&amp;Main</source>
-        <translation>&amp;Hlavné</translation>
-    </message>
-    <message>
-        <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Automaticky spustiť %1 pri spustení systému.</translation>
-    </message>
-    <message>
-        <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Spustiť %1 pri prihlásení</translation>
-    </message>
-    <message>
-        <source>Size of &amp;database cache</source>
-        <translation>Veľkosť vyrovnávacej pamäti &amp;databázy</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>MB</translation>
-    </message>
-    <message>
-        <source>Number of script &amp;verification threads</source>
-        <translation>Počet &amp;vlákien overujúcich skript</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside</source>
-        <translation>Prijať spojenia zvonku</translation>
-    </message>
-    <message>
-        <source>Allow incoming connections</source>
-        <translation>Povoliť prichádzajúce spojenia</translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP adresy proxy (napr. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
-    </message>
-    <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimalizovať namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
-    </message>
-    <message>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL tretích strán (napr. prehliadač blockchain) ktoré sa zobrazujú v záložke transakcií ako položky kontextového menu. %s v URL je nahradené hash-om transakcie. Viaceré URL sú oddelené zvislou čiarou |.</translation>
-    </message>
-    <message>
-        <source>Third party transaction URLs</source>
-        <translation>URL transakcií s tretími stranami</translation>
-    </message>
-    <message>
-        <source>Active command-line options that override above options:</source>
-        <translation>Aktívne možnosti príkazového riadku ktoré prepíšu možnosti vyššie:</translation>
-    </message>
-    <message>
-        <source>Reset all client options to default.</source>
-        <translation>Vynulovať všetky voľby klienta na predvolené.</translation>
-    </message>
-    <message>
-        <source>&amp;Reset Options</source>
-        <translation>Vynulovať voľby</translation>
-    </message>
-    <message>
-        <source>&amp;Network</source>
-        <translation>&amp;Sieť</translation>
-    </message>
-    <message>
-        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
-    </message>
-    <message>
-        <source>W&amp;allet</source>
-        <translation>&amp;Peňaženka</translation>
-    </message>
-    <message>
-        <source>Expert</source>
-        <translation>Expert</translation>
-    </message>
-    <message>
-        <source>Enable coin &amp;control features</source>
-        <translation>Povoliť možnosti "&amp;coin control"</translation>
-    </message>
-    <message>
-        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Ak vypnete míňanie nepotvrdeného výdavku tak výdavok z transakcie bude možné použiť až keď daná transakcia bude mať aspoň jedno potvrdenie. Toto má vplyv aj na výpočet vášho zostatku.</translation>
-    </message>
-    <message>
-        <source>&amp;Spend unconfirmed change</source>
-        <translation>Minúť nepotvrdený výdavok</translation>
-    </message>
-    <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Litecoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
-    </message>
-    <message>
-        <source>Map port using &amp;UPnP</source>
-        <translation>Mapovať port pomocou &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť do siete Litecoin cez proxy server SOCKS5.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Pripojiť cez proxy server SOCKS5 (predvolený proxy).</translation>
-    </message>
-    <message>
-        <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
-    </message>
-    <message>
-        <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
-    </message>
-    <message>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port proxy (napr. 9050)</translation>
-    </message>
-    <message>
-        <source>Used for reaching peers via:</source>
-        <translation>Použité pre získavanie peerov cez:</translation>
-    </message>
-    <message>
-        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Zobrazuje, či je poskytované predvolené SOCKS5 proxy používané pre získavanie peerov cez tento typ siete.</translation>
-    </message>
-    <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
-    </message>
-    <message>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
-    </message>
-    <message>
-        <source>Tor</source>
-        <translation>Tor</translation>
-    </message>
-    <message>
-        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť k Litecoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor:</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Okno</translation>
-    </message>
-    <message>
-        <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Skryť ikonu zo systémovej lišty.</translation>
-    </message>
-    <message>
-        <source>Hide tray icon</source>
-        <translation>Skryť ikonu v oblasti oznámení</translation>
-    </message>
-    <message>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
-    </message>
-    <message>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
-    </message>
-    <message>
-        <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimalizovať pri zavretí</translation>
-    </message>
-    <message>
-        <source>&amp;Display</source>
-        <translation>&amp;Zobrazenie</translation>
-    </message>
-    <message>
-        <source>User Interface &amp;language:</source>
-        <translation>Jazyk užívateľského rozhrania:</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>Jazyk uživateľského rozhrania sa dá nastaviť tu. Toto nastavenie sa uplatní až po reštarte %1.</translation>
-    </message>
-    <message>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Zobrazovať hodnoty v jednotkách:</translation>
-    </message>
-    <message>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte ako deliť litecoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
-    </message>
-    <message>
-        <source>Whether to show coin control features or not.</source>
-        <translation>Či zobrazovať možnosti "Coin control" alebo nie.</translation>
-    </message>
-    <message>
-        <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>Zrušiť</translation>
-    </message>
-    <message>
-        <source>default</source>
-        <translation>predvolené</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>žiadne</translation>
-    </message>
-    <message>
-        <source>Confirm options reset</source>
-        <translation>Potvrdiť obnovenie možností</translation>
-    </message>
-    <message>
-        <source>Client restart required to activate changes.</source>
-        <translation>Reštart klienta potrebný pre aktivovanie zmien.</translation>
-    </message>
-    <message>
-        <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Klient bude vypnutý, chcete pokračovať?</translation>
-    </message>
-    <message>
-        <source>This change would require a client restart.</source>
-        <translation>Táto zmena by vyžadovala reštart klienta.</translation>
-    </message>
-    <message>
-        <source>The supplied proxy address is invalid.</source>
-        <translation>Zadaná proxy adresa je neplatná.</translation>
-    </message>
-</context>
-<context>
-    <name>OverviewPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Forma</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Litecoin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
-    </message>
-    <message>
-        <source>Watch-only:</source>
-        <translation>Iba sledované:</translation>
-    </message>
-    <message>
-        <source>Available:</source>
-        <translation>Disponibilné:</translation>
-    </message>
-    <message>
-        <source>Your current spendable balance</source>
-        <translation>Váš aktuálny disponibilný zostatok</translation>
-    </message>
-    <message>
-        <source>Pending:</source>
-        <translation>Čakajúce potvrdenie:</translation>
-    </message>
-    <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Suma transakcií ktoré ešte neboli potvrdené a ešte sa nepočítajú do disponibilného zostatku</translation>
-    </message>
-    <message>
-        <source>Immature:</source>
-        <translation>Nezrelé:</translation>
-    </message>
-    <message>
-        <source>Mined balance that has not yet matured</source>
-        <translation>Vytvorený zostatok ktorý ešte nedosiahol zrelosť</translation>
-    </message>
-    <message>
-        <source>Balances</source>
-        <translation>Stav účtu</translation>
-    </message>
-    <message>
-        <source>Total:</source>
-        <translation>Celkovo:</translation>
-    </message>
-    <message>
-        <source>Your current total balance</source>
-        <translation>Váš súčasný celkový zostatok</translation>
-    </message>
-    <message>
-        <source>Your current balance in watch-only addresses</source>
-        <translation>Váš celkový zostatok pre adresy ktoré sa iba sledujú</translation>
-    </message>
-    <message>
-        <source>Spendable:</source>
-        <translation>Použiteľné:</translation>
-    </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>Nedávne transakcie</translation>
-    </message>
-    <message>
-        <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Nepotvrdené transakcie pre adresy ktoré sa iba sledujú</translation>
-    </message>
-    <message>
-        <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Vyťažená suma pre adresy ktoré sa iba sledujú ale ešte nie je dozretá</translation>
-    </message>
-    <message>
-        <source>Current total balance in watch-only addresses</source>
-        <translation>Aktuálny celkový zostatok pre adries ktoré sa iba sledujú</translation>
-    </message>
-</context>
-<context>
-    <name>PaymentServer</name>
-    <message>
-        <source>Payment request error</source>
-        <translation>Chyba pri vyžiadaní platby</translation>
-    </message>
-    <message>
-        <source>URI handling</source>
-        <translation>URI manipulácia</translation>
-    </message>
-    <message>
-        <source>Payment request fetch URL is invalid: %1</source>
-        <translation>URL pre stiahnutie výzvy na zaplatenie je neplatné: %1</translation>
-    </message>
-    <message>
-        <source>Invalid payment address %1</source>
-        <translation>Neplatná adresa platby %1</translation>
-    </message>
-    <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Litecoin adresou alebo zle nastavenými vlastnosťami URI.</translation>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation>Obsluha súboru s požiadavkou na platbu</translation>
-    </message>
-    <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Súbor s výzvou na zaplatenie sa nedá čítať! To môže byť spôsobené aj neplatným súborom s výzvou.</translation>
-    </message>
-    <message>
-        <source>Payment request rejected</source>
-        <translation>Požiadavka na platbu zamietnutá</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Sieť požiadavky na platbu nie je zhodná so sieťou klienta.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Vypršala platnosť požiadavky na platbu.</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>Požiadavka na platbu nie je inicializovaná</translation>
-    </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Program nepodporuje neoverené platobné požiadavky na vlastné skripty.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Chybná požiadavka na platbu.</translation>
-    </message>
-    <message>
-        <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Požadovaná suma platby %1 je príliš nízka (považovaná za prach).</translation>
-    </message>
-    <message>
-        <source>Refund from %1</source>
-        <translation>Vrátenie z  %1</translation>
-    </message>
-    <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Požiadavka na platbu %1 je príliš veľká (%2 bajtov, povolené je %3 bajtov).</translation>
-    </message>
-    <message>
-        <source>Error communicating with %1: %2</source>
-        <translation>Chyba komunikácie s %1: %2 </translation>
-    </message>
-    <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>Požiadavka na platbu nemôže byť analyzovaná!</translation>
-    </message>
-    <message>
-        <source>Bad response from server %1</source>
-        <translation>Zlá odpoveď zo servera %1</translation>
-    </message>
-    <message>
-        <source>Network request error</source>
-        <translation>Chyba požiadavky siete</translation>
-    </message>
-    <message>
-        <source>Payment acknowledged</source>
-        <translation>Platba potvrdená</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <translation>Aplikácia</translation>
-    </message>
-    <message>
-        <source>Node/Service</source>
-        <translation>Uzol/Služba</translation>
-    </message>
-    <message>
-        <source>NodeId</source>
-        <translation>ID uzlu</translation>
-    </message>
-    <message>
-        <source>Ping</source>
-        <translation>Odozva</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Amount</source>
-        <translation>Suma</translation>
-    </message>
-    <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Zadajte litecoin adresu (napr. %1)</translation>
-    </message>
-    <message>
-        <source>%1 d</source>
-        <translation>%1 d</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Žiadne</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>nie je k dispozícii</translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekúnd</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n minúta</numerusform><numerusform>%n minúty</numerusform><numerusform>%n minút</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation> %1 a  %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n rokov</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 didn't yet exit safely...</source>
-        <translation>%1 ešte nebol bezpečne ukončený...</translation>
-    </message>
-</context>
-<context>
-    <name>QObject::QObject</name>
-    <message>
-        <source>Error: %1</source>
-        <translation>Chyba: %1</translation>
-    </message>
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>Uložiť obrázok...</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation>Kopírovať obrázok</translation>
-    </message>
-    <message>
-        <source>Save QR Code</source>
-        <translation>Uložiť QR Code</translation>
-    </message>
-    <message>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG obrázok (*.png)</translation>
-    </message>
-</context>
-<context>
-    <name>RPCConsole</name>
-    <message>
-        <source>N/A</source>
-        <translation>nie je k dispozícii</translation>
-    </message>
-    <message>
-        <source>Client version</source>
-        <translation>Verzia klienta</translation>
-    </message>
-    <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informácia</translation>
-    </message>
-    <message>
-        <source>Debug window</source>
-        <translation>Okno pre ladenie</translation>
-    </message>
-    <message>
-        <source>General</source>
-        <translation>Všeobecné</translation>
-    </message>
-    <message>
-        <source>Using BerkeleyDB version</source>
-        <translation>Používa verziu BerkeleyDB</translation>
-    </message>
-    <message>
-        <source>Datadir</source>
-        <translation>Priečinok s dátami</translation>
-    </message>
-    <message>
-        <source>Startup time</source>
-        <translation>Čas spustenia</translation>
-    </message>
-    <message>
-        <source>Network</source>
-        <translation>Sieť</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Názov</translation>
-    </message>
-    <message>
-        <source>Number of connections</source>
-        <translation>Počet pripojení</translation>
-    </message>
-    <message>
-        <source>Block chain</source>
-        <translation>Reťazec blokov</translation>
-    </message>
-    <message>
-        <source>Current number of blocks</source>
-        <translation>Aktuálny počet blokov</translation>
-    </message>
-    <message>
-        <source>Memory Pool</source>
-        <translation>Pamäť Poolu</translation>
-    </message>
-    <message>
-        <source>Current number of transactions</source>
-        <translation>Aktuálny počet transakcií</translation>
-    </message>
-    <message>
-        <source>Memory usage</source>
-        <translation>Využitie pamäte</translation>
-    </message>
-    <message>
-        <source>Received</source>
-        <translation>Prijaté</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Odoslané</translation>
-    </message>
-    <message>
-        <source>&amp;Peers</source>
-        <translation>&amp;Partneri</translation>
-    </message>
-    <message>
-        <source>Banned peers</source>
-        <translation>Zablokované spojenia</translation>
-    </message>
-    <message>
-        <source>Select a peer to view detailed information.</source>
-        <translation>Vyberte počítač pre zobrazenie podrobností.</translation>
-    </message>
-    <message>
-        <source>Whitelisted</source>
-        <translation>Povolené</translation>
-    </message>
-    <message>
-        <source>Direction</source>
-        <translation>Smer</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Verzia</translation>
-    </message>
-    <message>
-        <source>Starting Block</source>
-        <translation>Počiatočný blok</translation>
-    </message>
-    <message>
-        <source>Synced Headers</source>
-        <translation>Synchronizované hlavičky
-</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>Synchronizované bloky</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>Aplikácia</translation>
-    </message>
-    <message>
-        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť %1 ladiaci výpis z aktuálnej zložky. Pre veľké súbory to môže chvíľu trvať.</translation>
-    </message>
-    <message>
-        <source>Decrease font size</source>
-        <translation>Zmenšiť písmo</translation>
-    </message>
-    <message>
-        <source>Increase font size</source>
-        <translation>Zväčšiť písmo</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Služby</translation>
-    </message>
-    <message>
-        <source>Ban Score</source>
-        <translation>Skóre zákazu</translation>
-    </message>
-    <message>
-        <source>Connection Time</source>
-        <translation>Dĺžka spojenia</translation>
-    </message>
-    <message>
-        <source>Last Send</source>
-        <translation>Posledné odoslanie</translation>
-    </message>
-    <message>
-        <source>Last Receive</source>
-        <translation>Posledné prijatie</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Čas odozvy</translation>
-    </message>
-    <message>
-        <source>The duration of a currently outstanding ping.</source>
-        <translation>Trvanie aktuálnej požiadavky na odozvu.</translation>
-    </message>
-    <message>
-        <source>Ping Wait</source>
-        <translation>Čakanie na odozvu</translation>
-    </message>
-    <message>
-        <source>Min Ping</source>
-        <translation>Minimálna odozva</translation>
-    </message>
-    <message>
-        <source>Time Offset</source>
-        <translation>Časový posun</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Čas posledného bloku</translation>
-    </message>
-    <message>
-        <source>&amp;Open</source>
-        <translation>&amp;Otvoriť</translation>
-    </message>
-    <message>
-        <source>&amp;Console</source>
-        <translation>&amp;Konzola</translation>
-    </message>
-    <message>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Sieťová prevádzka</translation>
-    </message>
-    <message>
-        <source>&amp;Clear</source>
-        <translation>&amp;Vyčistiť</translation>
-    </message>
-    <message>
-        <source>Totals</source>
-        <translation>Celkovo:</translation>
-    </message>
-    <message>
-        <source>In:</source>
-        <translation>Dnu:</translation>
-    </message>
-    <message>
-        <source>Out:</source>
-        <translation>Von:</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Súbor záznamu ladenia</translation>
-    </message>
-    <message>
-        <source>Clear console</source>
-        <translation>Vymazať konzolu</translation>
-    </message>
-    <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;hodinu</translation>
-    </message>
-    <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;deň</translation>
-    </message>
-    <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;týždeň</translation>
-    </message>
-    <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;rok</translation>
-    </message>
-    <message>
-        <source>&amp;Disconnect</source>
-        <translation>&amp;Odpojiť</translation>
-    </message>
-    <message>
-        <source>Ban for</source>
-        <translation>Zakázať na</translation>
-    </message>
-    <message>
-        <source>&amp;Unban</source>
-        <translation>&amp;Zrušiť zákaz</translation>
-    </message>
-    <message>
-        <source>Welcome to the %1 RPC console.</source>
-        <translation>Vitajte v %1 RPC konzole</translation>
-    </message>
-    <message>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Použi šípky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyčistenie obrazovky.</translation>
-    </message>
-    <message>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Napíš &lt;b&gt;help&lt;/b&gt; pre prehľad dostupných príkazov.</translation>
-    </message>
-    <message>
-        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>VAROVANIE: Podvodníci sú aktívni a môžu nabádať používateľov napísať sem príkazy, pomocou ktorých ukradnú ich obsah peňaženky. Nepoužívajte túto konzolu ak nerozumiete presne účinkom príkazov.</translation>
-    </message>
-    <message>
-        <source>Network activity disabled</source>
-        <translation>Sieťová aktivita zakázaná</translation>
-    </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 KB</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GB</translation>
-    </message>
-    <message>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>(node id: %1)</source>
         <translation>(ID uzlu: %1)</translation>
     </message>
@@ -2778,13 +1793,8 @@
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Defcoin network.</source>
         <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Defcoin.</translation>
-=======
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Litecoin.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2937,11 +1947,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-<<<<<<< HEAD
         <translation>Poslať Defcoins</translation>
-=======
-        <translation>Poslať Litecoins</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -3020,11 +2026,7 @@
         <translation>spolu aspoň</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for defcoin transactions than the network can process.</source>
-=======
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Zaplatenie len minimálneho poplatku je v poriadku, pokiaľ existuje menej transakcií ako miesta v blokoch. Uvedomte si však, že ak bude vyšší dopyt po transakciách ako dokáže sieť spracovať, môže byť vaša transakcia odsúvaná a nepotvrdená donekonečna.</translation>
     </message>
     <message>
@@ -3188,13 +2190,8 @@
         <translation><numerusform>Odhadovaný začiatok potvrdzovania po %n bloku.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: Invalid Defcoin address</source>
         <translation>Varovanie: Neplatná Defcoin adresa</translation>
-=======
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Varovanie: Neplatná Litecoin adresa</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3236,11 +2233,7 @@
         <translation>Toto je normálna platba.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Defcoin address to send the payment to</source>
-=======
-        <source>The Litecoin address to send the payment to</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Zvoľte adresu kam poslať platbu</translation>
     </message>
     <message>
@@ -3260,13 +2253,8 @@
         <translation>Odstrániť túto položku</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less defcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej defcoinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
-=======
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej litecoinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3289,13 +2277,8 @@
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A message that was attached to the defcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Defcoin network.</source>
         <translation>Správa ktorá bola pripojená k defcoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Defcoin.</translation>
-=======
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Správa ktorá bola pripojená k litecoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Litecoin.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Pay To:</source>
@@ -3339,21 +2322,12 @@
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive defcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
     </message>
     <message>
         <source>The Defcoin address to sign the message with</source>
         <translation>Defcoin adresa pre podpísanie správy s</translation>
-=======
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
-    </message>
-    <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Litecoin adresa pre podpísanie správy s</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3384,11 +2358,7 @@
         <translation>Kopírovať tento podpis do systémovej schránky</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
-=======
-        <source>Sign the message to prove you own this Litecoin address</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -3412,21 +2382,12 @@
         <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Defcoin address the message was signed with</source>
         <translation>Adresa Defcoin, ktorou bola podpísaná správa</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
         <translation>Overím správy sa uistiť že bola podpísaná označenou Defcoin adresou</translation>
-=======
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Adresa Litecoin, ktorou bola podpísaná správa</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná označenou Litecoin adresou</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -4026,13 +2987,8 @@
         <translation>Nepodarilo sa spustiť HTTP server. Pre viac detailov zobrazte debug log.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Core</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>The %s developers</source>

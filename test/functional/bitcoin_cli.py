@@ -15,11 +15,7 @@ class TestBitcoinCli(BitcoinTestFramework):
     def run_test(self):
         """Main test logic"""
 
-<<<<<<< HEAD
         self.log.info("Compare responses from getinfo RPC and `defcoin-cli getinfo`")
-=======
-        self.log.info("Compare responses from getinfo RPC and `litecoin-cli getinfo`")
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         cli_get_info = self.nodes[0].cli.getinfo()
         rpc_get_info = self.nodes[0].getinfo()
 

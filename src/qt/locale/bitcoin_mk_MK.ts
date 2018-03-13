@@ -138,11 +138,7 @@
         <translation>Повторно индексирање на блокови од дискот...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
-=======
-        <source>Send coins to a Litecoin address</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Испрати биткоини на Биткоин адреса</translation>
     </message>
     <message>
@@ -150,11 +146,7 @@
         <translation>&amp;Потврди порака...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin</source>
-=======
-        <source>Litecoin</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -586,11 +578,7 @@
         <translation>Опции:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin Core</source>
-=======
-        <source>Litecoin Core</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Биткоин Core</translation>
     </message>
     <message>

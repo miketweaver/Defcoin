@@ -1,19 +1,11 @@
 # Notes
 The sources in this directory are unit test cases.  Boost includes a
-<<<<<<< HEAD:src/test/README.md
 unit testing framework, and since defcoin already uses boost, it makes
-=======
-unit testing framework, and since litecoin already uses boost, it makes
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702:src/test/README.md
 sense to simply use this framework rather than require developers to
 configure some other framework (we want as few impediments to creating
 unit tests as possible).
 
-<<<<<<< HEAD:src/test/README.md
 The build system is setup to compile an executable called "test_defcoin"
-=======
-The build system is setup to compile an executable called "test_litecoin"
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702:src/test/README.md
 that runs all of the unit tests.  The main source file is called
 test_bitcoin.cpp, which simply includes other files that contain the
 actual unit tests (outside of a couple required preprocessor

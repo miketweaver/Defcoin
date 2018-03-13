@@ -13,11 +13,7 @@
  * for both bitcoind and bitcoin-core, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-<<<<<<< HEAD
 const std::string CLIENT_NAME("DefcoinCore");
-=======
-const std::string CLIENT_NAME("LitecoinCore");
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
 /**
  * Client version number

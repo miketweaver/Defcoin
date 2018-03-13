@@ -39,19 +39,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-<<<<<<< HEAD
         <translation>Izvēlies adresi uz kuru sūtīt defcoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
         <translation>Izvēlies adresi ar kuru saņemt defcoins</translation>
-=======
-        <translation>Izvēlies adresi uz kuru sūtīt litecoins</translation>
-    </message>
-    <message>
-        <source>Choose the address to receive coins with</source>
-        <translation>Izvēlies adresi ar kuru saņemt litecoins</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -210,13 +202,8 @@
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Nosūtīt bitkoinus uz Defcoin adresi</translation>
-=======
-        <source>Send coins to a Litecoin address</source>
-        <translation>Nosūtīt bitkoinus uz Litecoin adresi</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -239,13 +226,8 @@
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
-=======
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -272,21 +254,12 @@
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Parakstīt ziņojumus ar savām Defcoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Defcoin adresēm</translation>
-=======
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām Litecoin adresēm lai pierādītu ka tās pieder tev</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Litecoin adresēm</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -305,21 +278,12 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Pieprasīt maksājumus (izveido QR kodu un defcoin: URIs)</translation>
     </message>
     <message>
         <source>Open a defcoin: URI or payment request</source>
         <translation>Atvērt defcoin URI vai maksājuma pieprasījumu</translation>
-=======
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un litecoin: URIs)</translation>
-    </message>
-    <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Atvērt litecoin URI vai maksājuma pieprasījumu</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -599,24 +563,15 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-<<<<<<< HEAD
         <translation>Ieslēgt defcoin &amp;kontroles funkcijas</translation>
-=======
-        <translation>Ieslēgt litecoin &amp;kontroles funkcijas</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Uz rūtera automātiski atvērt Defcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
-=======
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt Litecoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -668,11 +623,7 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-<<<<<<< HEAD
         <translation>Vai rādīt Defcoin kontroles funkcijas vai nē.</translation>
-=======
-        <translation>Vai rādīt Litecoin kontroles funkcijas vai nē.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;OK</source>
@@ -706,13 +657,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Defcoin tīklu, taču šis process vēl nav beidzies.</translation>
-=======
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Litecoin tīklu, taču šis process vēl nav beidzies.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Available:</source>
@@ -986,11 +932,7 @@
     </message>
     <message>
         <source>Coin Control Features</source>
-<<<<<<< HEAD
         <translation>Defcoin Kontroles Funkcijas</translation>
-=======
-        <translation>Litecoin Kontroles Funkcijas</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Inputs...</source>
@@ -1169,13 +1111,8 @@
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
         <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Defcoin adreses īpašnieks.</translation>
-=======
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Litecoin adreses īpašnieks.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1291,13 +1228,8 @@
         <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Core</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

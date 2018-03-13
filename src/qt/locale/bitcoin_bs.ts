@@ -14,13 +14,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
-=======
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     </context>
 <context>
@@ -161,13 +156,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Jezrga</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Litecoin Jezrga</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     </context>
 </TS>

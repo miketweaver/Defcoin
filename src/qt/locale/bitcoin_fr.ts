@@ -62,21 +62,12 @@
         <translation>Adresses de réception</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Voici vos adresses Defcoin pour envoyer des paiements. Vérifiez toujours le montant et l'adresse du destinataire avant d'envoyer des pièces.</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Voici vos adresses Defcoin pour recevoir des paiements. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
-=======
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Voici vos adresses Litecoin pour envoyer des paiements. Vérifiez toujours le montant et l'adresse du destinataire avant d'envoyer des pièces.</translation>
-    </message>
-    <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Voici vos adresses Litecoin pour recevoir des paiements. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -177,13 +168,8 @@
         <translation>Confirmer le chiffrement du porte-monnaie</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEFCOINS&lt;/b&gt;!</source>
         <translation>Avertissement : si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS DEFCOINS&lt;/b&gt; !</translation>
-=======
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Avertissement : si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS LITECOINS&lt;/b&gt; !</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -194,13 +180,8 @@
         <translation>Le porte-monnaie est chiffré</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your defcoins from being stolen by malware infecting your computer.</source>
         <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre porte-monnaie ne peut pas protéger entièrement vos defcoins contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
-=======
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre porte-monnaie ne peut pas protéger entièrement vos litecoins contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -357,13 +338,8 @@
         <translation>Réindexation des blocs sur le disque...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Envoyer des pièces à une adresse Defcoin</translation>
-=======
-        <source>Send coins to a Litecoin address</source>
-        <translation>Envoyer des pièces à une adresse Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -386,13 +362,8 @@
         <translation>&amp;Vérifier un message...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
-=======
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -419,21 +390,12 @@
         <translation>Chiffrer les clés privées qui appartiennent à votre porte-monnaie</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Signer les messages avec vos adresses Defcoin pour prouver que vous les détenez</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Vérifier les messages pour s'assurer qu'ils ont été signés avec les adresses Defcoin spécifiées</translation>
-=======
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Signer les messages avec vos adresses Litecoin pour prouver que vous les détenez</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Vérifier les messages pour s'assurer qu'ils ont été signés avec les adresses Litecoin spécifiées</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -452,13 +414,8 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Demander des paiements (génère des codes QR et des URI defcoin:)</translation>
-=======
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Demander des paiements (génère des codes QR et des URI litecoin:)</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -469,26 +426,16 @@
         <translation>Afficher la liste d'adresses de réception et d'étiquettes utilisées</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>Ouvrir une URI defcoin: ou une demande de paiement</translation>
-=======
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Ouvrir une URI litecoin: ou une demande de paiement</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message numerus="yes">
-<<<<<<< HEAD
         <source>%n active connection(s) to Defcoin network</source>
         <translation><numerusform>%n connexion active avec le réseau Defcoin</numerusform><numerusform>%n connexions actives avec le réseau Defcoin</numerusform></translation>
-=======
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n connexion active avec le réseau Litecoin</numerusform><numerusform>%n connexions actives avec le réseau Litecoin</numerusform></translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -531,13 +478,8 @@
         <translation>À jour</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Defcoin command-line options</source>
         <translation>Afficher le message d'aide de %1 pour obtenir la liste des options de ligne de commande Defcoin possibles.</translation>
-=======
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>Afficher le message d'aide de %1 pour obtenir la liste des options de ligne de commande Litecoin possibles.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 client</source>
@@ -606,13 +548,8 @@
         <translation>Le porte-monnaie est &lt;b&gt;chiffré&lt;/b&gt; et actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A fatal error occurred. Defcoin can no longer continue safely and will quit.</source>
         <translation>Une erreur fatale est survenue. Defcoin ne peut plus continuer en toute sécurité et va s'arrêter.</translation>
-=======
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale est survenue. Litecoin ne peut plus continuer en toute sécurité et va s'arrêter.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
 </context>
 <context>
@@ -805,13 +742,8 @@
         <translation>Modifier l’adresse d'envoi</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Defcoin address.</source>
         <translation>L'adresse saisie « %1 » n'est pas une adresse Defcoin valide.</translation>
-=======
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>L'adresse saisie « %1 » n'est pas une adresse Litecoin valide.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -919,13 +851,8 @@
         <translation>Puisque c'est la première fois que le logiciel est lancé, vous pouvez choisir où %1 stockera ses données.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>%1 will download and store a copy of the Defcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 téléchargera et stockera une copie de la chaîne de blocs de Defcoin. Au moins %2 Go de données seront stockés dans ce répertoire et sa taille augmentera avec le temps. Le porte-monnaie sera également stocké dans ce répertoire.</translation>
-=======
-        <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 téléchargera et stockera une copie de la chaîne de blocs de Litecoin. Au moins %2 Go de données seront stockés dans ce répertoire et sa taille augmentera avec le temps. Le porte-monnaie sera également stocké dans ce répertoire.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -954,7 +881,6 @@
 </context>
 <context>
     <name>ModalOverlay</name>
-<<<<<<< HEAD
     <message>
         <source>Form</source>
         <translation>Formulaire</translation>
@@ -968,28 +894,12 @@
         <translation>Toute tentative de dépense de defcoins affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
     </message>
     <message>
-=======
-    <message>
-        <source>Form</source>
-        <translation>Formulaire</translation>
-    </message>
-    <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Les transactions récentes ne sont peut-être pas encore visibles et par conséquent le solde de votre porte-monnaie est peut-être erroné. Cette information sera juste quand votre porte-monnaie aura fini de se synchroniser avec le réseau Litecoin, comme décrit ci-dessous.</translation>
-    </message>
-    <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Toute tentative de dépense de litecoins affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
-    </message>
-    <message>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Number of blocks left</source>
         <translation>Nombre de blocs restants</translation>
     </message>
     <message>
         <source>Unknown...</source>
         <translation>Inconnu...</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Last block time</source>
@@ -1004,22 +914,6 @@
         <translation>Avancement de la progression par heure</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Estampille temporelle du dernier bloc</translation>
-    </message>
-    <message>
-        <source>Progress</source>
-        <translation>Progression</translation>
-    </message>
-    <message>
-        <source>Progress increase per hour</source>
-        <translation>Avancement de la progression par heure</translation>
-    </message>
-    <message>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>calculating...</source>
         <translation>calcul en cours...</translation>
     </message>
@@ -1154,26 +1048,16 @@
         <translation>&amp;Dépenser la monnaie non confirmée</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Ouvrir automatiquement le port du client Defcoin sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l'UPnP et si la fonction est activée.</translation>
-=======
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client Litecoin sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l'UPnP et si la fonction est activée.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapper le port avec l'&amp;UPnP</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Connect to the Defcoin network through a SOCKS5 proxy.</source>
         <translation>Se connecter au réseau Defcoin par un mandataire SOCKS5.</translation>
-=======
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Se connecter au réseau Litecoin par un mandataire SOCKS5.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1212,13 +1096,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Connect to the Defcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Se connecter au réseau Defcoin au travers d'un mandataire SOCKS5 séparé pour les services cachés de Tor.</translation>
-=======
-        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Se connecter au réseau Litecoin au travers d'un mandataire SOCKS5 séparé pour les services cachés de Tor.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1287,7 +1166,6 @@
     <message>
         <source>none</source>
         <translation>aucune</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Confirm options reset</source>
@@ -1306,26 +1184,6 @@
         <translation>Ce changement demanderait un redémarrage du client.</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>Confirm options reset</source>
-        <translation>Confirmer la réinitialisation des options</translation>
-    </message>
-    <message>
-        <source>Client restart required to activate changes.</source>
-        <translation>Le redémarrage du client est exigé pour activer les changements.</translation>
-    </message>
-    <message>
-        <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Le client sera arrêté. Voulez-vous continuer ?</translation>
-    </message>
-    <message>
-        <source>This change would require a client restart.</source>
-        <translation>Ce changement demanderait un redémarrage du client.</translation>
-    </message>
-    <message>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>The supplied proxy address is invalid.</source>
         <translation>L'adresse de serveur mandataire fournie est invalide.</translation>
     </message>
@@ -1337,13 +1195,8 @@
         <translation>Formulaire</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau Defcoin lorsque la connexion s'établit, or ce processus n'est pas encore terminé.</translation>
-=======
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau Litecoin lorsque la connexion s'établit, or ce processus n'est pas encore terminé.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1417,13 +1270,8 @@
         <translation>Erreur de demande de paiement</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Cannot start defcoin: click-to-pay handler</source>
         <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer defcoin:</translation>
-=======
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer litecoin:</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>URI handling</source>
@@ -1438,13 +1286,8 @@
         <translation>Adresse de paiement invalide %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Defcoin address or malformed URI parameters.</source>
         <translation>L'URI ne peut pas être analysée ! Cela peut être causé par une adresse Defcoin invalide ou par des paramètres d'URI mal formés.</translation>
-=======
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>L'URI ne peut pas être analysée ! Cela peut être causé par une adresse Litecoin invalide ou par des paramètres d'URI mal formés.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1537,13 +1380,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Enter a Defcoin address (e.g. %1)</source>
         <translation>Saisir une adresse Defcoin (p. ex. %1)</translation>
-=======
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Saisir une adresse Litecoin (p. ex. %1)</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 d</source>
@@ -1966,13 +1804,8 @@
         <translation>Ré&amp;utiliser une adresse de réception existante (non recommandé)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Defcoin network.</source>
         <translation>Un message facultatif à joindre à la demande de paiement et qui sera affiché à l'ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau Defcoin.</translation>
-=======
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-        <translation>Un message facultatif à joindre à la demande de paiement et qui sera affiché à l'ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau Litecoin.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2204,11 +2037,7 @@
         <translation>total au moins</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for defcoin transactions than the network can process.</source>
-=======
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Il est correct de payer les frais minimum tant que le volume transactionnel est inférieur à l'espace dans les blocs. Mais soyez conscient que cela pourrait résulter en une transaction n'étant jamais confirmée une fois qu'il y aura plus de transactions que le réseau ne pourra en traiter.</translation>
     </message>
     <message>
@@ -2372,13 +2201,8 @@
         <translation><numerusform>Il est estimé que la confirmation commencera dans %n bloc.</numerusform><numerusform>Il est estimé que la confirmation commencera dans %n blocs.</numerusform></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: Invalid Defcoin address</source>
         <translation>Avertissement : adresse Defcoin invalide</translation>
-=======
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Avertissement : adresse Litecoin invalide</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2420,13 +2244,8 @@
         <translation>Ceci est un paiement normal.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Defcoin address to send the payment to</source>
         <translation>L'adresse Defcoin à laquelle envoyer le paiement</translation>
-=======
-        <source>The Litecoin address to send the payment to</source>
-        <translation>L'adresse Litecoin à laquelle envoyer le paiement</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Alt+A</source>
@@ -2445,13 +2264,8 @@
         <translation>Retirer cette entrée</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less defcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de defcoins que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
-=======
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de litecoins que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2474,13 +2288,8 @@
         <translation>Saisir une étiquette pour cette adresse afin de l'ajouter à la liste d'adresses utilisées</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A message that was attached to the defcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Defcoin network.</source>
         <translation>Un message qui était joint à l'URI defcoin: et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Defcoin.</translation>
-=======
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Un message qui était joint à l'URI litecoin: et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Litecoin.</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Pay To:</source>
@@ -2524,21 +2333,12 @@
         <translation>&amp;Signer un message</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive defcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des defcoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d'hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l'usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
     </message>
     <message>
         <source>The Defcoin address to sign the message with</source>
         <translation>L'adresse Defcoin avec laquelle signer le message</translation>
-=======
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des litecoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d'hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l'usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
-    </message>
-    <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>L'adresse Litecoin avec laquelle signer le message</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2569,13 +2369,8 @@
         <translation>Copier la signature actuelle dans le presse-papiers</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
         <translation>Signer le message afin de prouver que vous détenez cette adresse Defcoin</translation>
-=======
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Signer le message afin de prouver que vous détenez cette adresse Litecoin</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2598,21 +2393,12 @@
         <translation>Saisir ci-dessous l'adresse du destinataire, le message (s'assurer de copier fidèlement les retours à la ligne, les espaces, les tabulations, etc.) et la signature pour vérifier le message. Faire attention à ne pas déduire davantage de la signature que ce qui est contenu dans le message signé même, pour éviter d'être trompé par une attaque d'homme du milieu. Prendre en compte que cela ne fait que prouver que le signataire reçoit l'adresse et ne peut pas prouver la provenance d'une transaction !</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Defcoin address the message was signed with</source>
         <translation>L'adresse Defcoin avec laquelle le message a été signé</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
         <translation>Vérifier le message pour s'assurer qu'il a été signé avec l'adresse Defcoin spécifiée</translation>
-=======
-        <source>The Litecoin address the message was signed with</source>
-        <translation>L'adresse Litecoin avec laquelle le message a été signé</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Vérifier le message pour s'assurer qu'il a été signé avec l'adresse Litecoin spécifiée</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3272,13 +3058,8 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Core</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>The %s developers</source>

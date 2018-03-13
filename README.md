@@ -73,7 +73,6 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     ./defcoin-qt_test
 
 =======
-<<<<<<< HEAD
 ### To Do
 
 Rename the Defcoin units from mDFC and μDFC in favor of a more flavorful name.
@@ -89,6 +88,3 @@ and on lines 54 - 56
     case mBTC: return QString("Milli-Defcoins (1 / 1" THIN_SP_UTF8 "000)");
     case uBTC: return QString("Micro-Defcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
 ```
-=======
-
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702

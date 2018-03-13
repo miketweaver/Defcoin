@@ -63,11 +63,7 @@ uint256 SendCoins(CWallet& wallet, SendCoinsDialog& sendCoinsDialog, const CBitc
     SendCoinsEntry* entry = qobject_cast<SendCoinsEntry*>(entries->itemAt(0)->widget());
     entry->findChild<QValidatedLineEdit*>("payTo")->setText(QString::fromStdString(address.ToString()));
     entry->findChild<BitcoinAmountField*>("payAmount")->setValue(amount);
-<<<<<<< HEAD
     /* Defcoin: Disabled RBF UI
-=======
-    /* Litecoin: Disabled RBF UI
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     sendCoinsDialog.findChild<QFrame*>("frameFee")
         ->findChild<QFrame*>("frameFeeSelection")
         ->findChild<QCheckBox*>("optInRBF")
@@ -185,11 +181,7 @@ void TestSendCoins()
     QVERIFY(FindTx(*transactionTableModel, txid2).isValid());
 
     // Call bumpfee. Test disabled, canceled, enabled, then failing cases.
-<<<<<<< HEAD
     // Defcoin: Disable BumpFee tests
-=======
-    // Litecoin: Disable BumpFee tests
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     // BumpFee(transactionView, txid1, true /* expect disabled */, "not BIP 125 replaceable" /* expected error */, false /* cancel */);
     // BumpFee(transactionView, txid2, false /* expect disabled */, {} /* expected error */, true /* cancel */);
     // BumpFee(transactionView, txid2, false /* expect disabled */, {} /* expected error */, false /* cancel */);

@@ -70,11 +70,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Defcoin</source>
-=======
-        <source>Litecoin</source>
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Биткоин</translation>
     </message>
     <message>

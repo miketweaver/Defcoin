@@ -9,11 +9,7 @@
 syntax = "proto2";
 
 package payments;
-<<<<<<< HEAD
 option java_package = "org.defcoin.protocols.payments";
-=======
-option java_package = "org.litecoin.protocols.payments";
->>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 option java_outer_classname = "Protos";
 
 // Generalized form of "send payment to this/these bitcoin addresses"
