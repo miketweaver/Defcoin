@@ -62,11 +62,19 @@
         <translation>آدرس‌های گیرنده</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>اینها آدرس‌های بیتکوین شما برای ارسال وجوه هستند. همیشه قبل از ارسال، مقدار و آدرس گیرنده را بررسی کنید.</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>اینها آدرس‌های بیتکوین شما برای ارسال وجوه هستند. همیشه قبل از ارسال، مقدار و آدرس گیرنده را بررسی کنید.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>اینها آدرس‌های بیتکوین شما برای دریافت وجوه هستند. توصیه می‌شود برای هر دریافت از یک آدرس جدید استفاده کنید.</translation>
     </message>
     <message>
@@ -206,8 +214,13 @@
         <translation>دریافت آدرس ها</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>ارسال کوین به آدرس defcoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>ارسال کوین به آدرس litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -226,8 +239,13 @@
         <translation>تایید پیام</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -505,8 +523,13 @@
         <translation>فرم</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه defcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه litecoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Available:</source>

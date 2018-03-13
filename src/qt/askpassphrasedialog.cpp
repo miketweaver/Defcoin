@@ -111,7 +111,11 @@ void AskPassphraseDialog::accept()
             break;
         }
         QMessageBox::StandardButton retval = QMessageBox::question(this, tr("Confirm wallet encryption"),
+<<<<<<< HEAD
                  tr("Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR DEFCOINS</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
+=======
+                 tr("Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR LITECOINS</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
                  QMessageBox::Yes|QMessageBox::Cancel,
                  QMessageBox::Cancel);
         if(retval == QMessageBox::Yes)
@@ -124,7 +128,11 @@ void AskPassphraseDialog::accept()
                                          "<qt>" +
                                          tr("%1 will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
+<<<<<<< HEAD
                                          "your defcoins from being stolen by malware infecting your computer.").arg(tr(PACKAGE_NAME)) +
+=======
+                                         "your litecoins from being stolen by malware infecting your computer.").arg(tr(PACKAGE_NAME)) +
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
                                          "<br><br><b>" +
                                          tr("IMPORTANT: Any previous backups you have made of your wallet file "
                                          "should be replaced with the newly generated, encrypted wallet file. "

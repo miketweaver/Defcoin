@@ -62,11 +62,19 @@
         <translation>受け取りアドレス</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>これらは支払いを送信するためのあなたの Defcoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは支払いを送信するためのあなたの Litecoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>これらは支払いを受け取るためのビットコインアドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
     </message>
     <message>
@@ -168,8 +176,13 @@
         <translation>ウォレットの暗号化を確認する</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEFCOINS&lt;/b&gt;!</source>
         <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Defcoin はすべて失われます&lt;/b&gt;!</translation>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Litecoin はすべて失われます&lt;/b&gt;!</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,7 +193,11 @@
         <translation>ウォレットは暗号化されました</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your defcoins from being stolen by malware infecting your computer.</source>
+=======
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>暗号化処理を完了させるため %1 をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるビットコインの盗難から完全に守ることはできないことにご注意ください。</translation>
     </message>
     <message>
@@ -338,8 +355,13 @@
         <translation>ディスク上のブロックのインデックスを再作成中...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Defcoin アドレスにコインを送る</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Litecoin アドレスにコインを送る</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +384,13 @@
         <translation>メッセージの検証... (&amp;V)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +417,21 @@
         <translation>あなたのウォレットの秘密鍵を暗号化します</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>あなたが所有していることを証明するために、あなたの Defcoin アドレスでメッセージに署名してください</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>指定された Defcoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>あなたが所有していることを証明するために、あなたの Litecoin アドレスでメッセージに署名してください</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>指定された Litecoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +450,13 @@
         <translation>タブツールバー</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>支払いを要求する (QRコードとdefcoin:ではじまるURIを生成する)</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>支払いを要求する (QRコードとlitecoin:ではじまるURIを生成する)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,16 +467,26 @@
         <translation>支払いを受け取るアドレスとラベルのリストを表示する</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>defcoin: URIまたは支払いリクエストを開く</translation>
+=======
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>litecoin: URIまたは支払いリクエストを開く</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Defcoin network</source>
         <translation><numerusform>%n の Defcoin ネットワークへのアクティブな接続</numerusform></translation>
+=======
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n の Litecoin ネットワークへのアクティブな接続</numerusform></translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -478,8 +529,13 @@
         <translation>バージョンは最新です</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Defcoin command-line options</source>
         <translation>有効な Defcoin のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
+=======
+        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+        <translation>有効な Litecoin のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 client</source>
@@ -548,8 +604,13 @@
         <translation>ウォレットは&lt;b&gt;暗号化されて、ロックされています&lt;/b&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fatal error occurred. Defcoin can no longer continue safely and will quit.</source>
         <translation>致命的なエラーが発生しました。Defcoin は安全に継続することができず終了するでしょう。</translation>
+=======
+        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。Litecoin は安全に継続することができず終了するでしょう。</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
 </context>
 <context>
@@ -742,8 +803,13 @@
         <translation>送信アドレスを編集</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Defcoin address.</source>
         <translation>入力されたアドレス "%1" は無効な Defcoin アドレスです。</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>入力されたアドレス "%1" は無効な Litecoin アドレスです。</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -851,7 +917,11 @@
         <translation>これはプログラム最初の起動です。%1 がデータを保存する場所を選択して下さい。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will download and store a copy of the Defcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+=======
+        <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>%1 は、ビットコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも %2 ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
@@ -886,11 +956,19 @@
         <translation>フォーム</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the defcoin network, as detailed below.</source>
         <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度ビットコインネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
     </message>
     <message>
         <source>Attempting to spend defcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+=======
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度ビットコインネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
+    </message>
+    <message>
+        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>まだ表示されていないトランザクションが影響するビットコインを使用しようとすると、ネットワークから認証がなされないでしょう。</translation>
     </message>
     <message>
@@ -900,6 +978,7 @@
     <message>
         <source>Unknown...</source>
         <translation>未知...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Last block time</source>
@@ -922,6 +1001,30 @@
         <translation>同期完了までの推定残り時間</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>最終ブロックの日時</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>進捗</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>進捗状況は一時間ごとに増加します</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>計算しています...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>同期完了までの推定残り時間</translation>
+    </message>
+    <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Hide</source>
         <translation>隠す</translation>
     </message>
@@ -1048,16 +1151,26 @@
         <translation>未検証のおつりを使用する (&amp;S)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>自動的にルーター上の Defcoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+=======
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動的にルーター上の Litecoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>UPnP を使ってポートを割り当てる (&amp;U)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Defcoin network through a SOCKS5 proxy.</source>
         <translation>SOCKS5 プロキシ経由でDefcoinネットワークに接続する</translation>
+=======
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 プロキシ経由でLitecoinネットワークに接続する</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1096,8 +1209,13 @@
         <translation>Tor</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Defcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でDefcoinネットワークに接続する</translation>
+=======
+        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でLitecoinネットワークに接続する</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1162,6 +1280,7 @@
     <message>
         <source>default</source>
         <translation>初期値</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>none</source>
@@ -1184,6 +1303,30 @@
         <translation>この変更はクライアントの再起動が必要です。</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>none</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>オプションのリセットの確認</translation>
+    </message>
+    <message>
+        <source>Client restart required to activate changes.</source>
+        <translation>変更を有効化するにはクライアントを再起動する必要があります。</translation>
+    </message>
+    <message>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>クライアントを終了します。続行してもよろしいですか？</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>この変更はクライアントの再起動が必要です。</translation>
+    </message>
+    <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>The supplied proxy address is invalid.</source>
         <translation>プロキシアドレスが無効です。</translation>
     </message>
@@ -1195,8 +1338,13 @@
         <translation>フォーム</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Defcoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Litecoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1241,6 +1389,7 @@
     <message>
         <source>Your current balance in watch-only addresses</source>
         <translation>監視限定アドレス内の現在の残高</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Spendable:</source>
@@ -1259,6 +1408,26 @@
         <translation>ウォッチオンリーアドレスの採掘された残高のうち、成熟していないもの</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>使用可能:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>最近のトランザクション</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>監視限定アドレスに対する未検証のトランザクション</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>ウォッチオンリーアドレスの採掘された残高のうち、成熟していないもの</translation>
+    </message>
+    <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Current total balance in watch-only addresses</source>
         <translation>監視限定アドレス内の現在の全残高</translation>
     </message>
@@ -1270,8 +1439,13 @@
         <translation>支払いのリクエストのエラーです</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot start defcoin: click-to-pay handler</source>
         <translation>Defcoin を起動できません: click-to-pay handler</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Litecoin を起動できません: click-to-pay handler</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>URI handling</source>
@@ -1286,8 +1460,13 @@
         <translation>支払いのアドレス「%1」は無効です</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Defcoin address or malformed URI parameters.</source>
         <translation>URI を解析できません! これは無効な Defcoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な Litecoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1380,8 +1559,13 @@
         <translation>総額</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Defcoin address (e.g. %1)</source>
         <translation>Defcoinアドレスを入力してください (例 %1)</translation>
+=======
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>Litecoinアドレスを入力してください (例 %1)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 d</source>
@@ -1804,8 +1988,13 @@
         <translation>既存の受取用アドレスを再利用する (非推奨) (&amp;E)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Defcoin network.</source>
         <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはDefcoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
+=======
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはLitecoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2037,8 +2226,13 @@
         <translation>最小手数料</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for defcoin transactions than the network can process.</source>
         <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどdefcoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
+=======
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどlitecoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2201,8 +2395,13 @@
         <translation><numerusform>%n ブロック以内に検証が開始されると予想されます。</numerusform></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Defcoin address</source>
         <translation>警告：無効なDefcoinアドレスです</translation>
+=======
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>警告：無効なLitecoinアドレスです</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2244,8 +2443,13 @@
         <translation>これは通常の支払です。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address to send the payment to</source>
         <translation>支払の送金先Defcoinアドレス</translation>
+=======
+        <source>The Litecoin address to send the payment to</source>
+        <translation>支払の送金先Litecoinアドレス</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Alt+A</source>
@@ -2264,7 +2468,11 @@
         <translation>この項目を削除する</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less defcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+=======
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>送金する金額から手数料が差し引かれます。受取人は数量フィールドで指定した量よりも少ないビットコインを受け取ります。受取人が複数いる場合には、手数料は均等割されます。</translation>
     </message>
     <message>
@@ -2288,8 +2496,13 @@
         <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the defcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Defcoin network.</source>
         <translation>defcoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはDefcoinネットワークを通して送信されるわけではありません。</translation>
+=======
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>litecoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはLitecoinネットワークを通して送信されるわけではありません。</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Pay To:</source>
@@ -2333,12 +2546,21 @@
         <translation>メッセージの署名 (&amp;S)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive defcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたビットコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
         <source>The Defcoin address to sign the message with</source>
         <translation>メッセージを署名するDefcoinアドレス</translation>
+=======
+        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたビットコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
+    </message>
+    <message>
+        <source>The Litecoin address to sign the message with</source>
+        <translation>メッセージを署名するLitecoinアドレス</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2369,8 +2591,13 @@
         <translation>現在の署名をシステムのクリップボードにコピーする</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
         <translation>この Defcoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+=======
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>この Litecoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2393,12 +2620,21 @@
         <translation>受取人のアドレスとメッセージ（改行やスペース、タブなども完全に一致するよう注意してください）および署名を以下に入力し、メッセージの署名を検証してください。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージに書かれていること以上の意味を署名から読み取ろうとしないよう注意してください。これは署名作成者がこのアドレスで受け取ったことを証明するだけであり、トランザクションの送信権限を証明するものではないことに注意してください！</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address the message was signed with</source>
         <translation>メッセージの署名に使われたDefcoinアドレス</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
         <translation>指定された Defcoin アドレスで署名されたことを保証するメッセージを検証</translation>
+=======
+        <source>The Litecoin address the message was signed with</source>
+        <translation>メッセージの署名に使われたLitecoinアドレス</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>指定された Litecoin アドレスで署名されたことを保証するメッセージを検証</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3058,8 +3294,13 @@
         <translation>HTTPサーバを開始できませんでした。詳細はデバッグログをご確認ください。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin のコア</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin のコア</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>The %s developers</source>

@@ -142,8 +142,13 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Trimite monedele către o adresă Defcoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Trimite monedele către o adresă Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +171,13 @@
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +204,21 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Semnează mesajele cu adresa ta de Defcoin pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Defcoin specificată.</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de Litecoin pentru a face dovada că îți aparțin.</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Litecoin specificată.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -214,12 +233,21 @@
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Cerere plată (generează coduri QR și defcoin: URIs)</translation>
     </message>
     <message>
         <source>Open a defcoin: URI or payment request</source>
         <translation>Deschide un defcoin: URI sau cerere de plată</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și litecoin: URIs)</translation>
+    </message>
+    <message>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Deschide un litecoin: URI sau cerere de plată</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 behind</source>
@@ -748,8 +776,13 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Core</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Information</source>

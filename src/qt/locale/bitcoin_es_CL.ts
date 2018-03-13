@@ -132,18 +132,32 @@
     <message>
         <source>&amp;Receiving addresses...</source>
         <translation>Recibiendo direcciones</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Open &amp;URI...</source>
         <translation>Abrir y url...</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Abrir y url...</translation>
+    </message>
+    <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Reindexing blocks on disk...</source>
         <translation>Cargando el index de bloques...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Enviar monedas a una dirección defcoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Enviar monedas a una dirección litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +180,13 @@
         <translation>Verificar mensaje....</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -186,7 +205,11 @@
         <translation>&amp;Mostrar/Ocultar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -206,8 +229,13 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Pide pagos (genera codigos QR and defcoin: URls)</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and litecoin: URls)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Error</source>
@@ -240,15 +268,41 @@
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>La billetera esta &lt;b&gt;codificada&lt;/b&gt; y actualmente &lt;b&gt;desbloqueda&lt;/b&gt;</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>La billetera esta &lt;b&gt;codificada&lt;/b&gt; y actualmente &lt;b&gt;bloqueda&lt;/b&gt;</translation>
+=======
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
+        <source>Amount:</source>
+        <translation>Cantidad:</translation>
+=======
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>La billetera esta &lt;b&gt;codificada&lt;/b&gt; y actualmente &lt;b&gt;bloqueda&lt;/b&gt;</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
+    </message>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Fee:</source>
+        <translation>comisión:
+</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Cantidad</translation>
+    </message>
+    <message>
+=======
         <source>Amount:</source>
         <translation>Cantidad:</translation>
     </message>
@@ -262,6 +316,7 @@
         <translation>Cantidad</translation>
     </message>
     <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Date</source>
         <translation>Fecha</translation>
     </message>
@@ -363,8 +418,13 @@
         <translation>experto</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Abre automáticamente el puerto del cliente Defcoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+=======
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente Litecoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -479,12 +539,21 @@
     <message>
         <source>&amp;Information</source>
         <translation>&amp;Información</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Debug window</source>
         <translation>Ventana Debug</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Debug window</source>
+        <translation>Ventana Debug</translation>
+    </message>
+    <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>General</source>
         <translation>General</translation>
     </message>
@@ -687,7 +756,11 @@
         <translation>Firma</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
+=======
+        <source>Sign the message to prove you own this Litecoin address</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -705,6 +778,7 @@
     <message>
         <source>Verify &amp;Message</source>
         <translation>&amp;Firmar Mensaje</translation>
+<<<<<<< HEAD
     </message>
     </context>
 <context>
@@ -790,6 +864,155 @@
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Enviar informacion de seguimiento a la consola en vez del archivo debug.log</translation>
+=======
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>[testnet]</source>
+        <translation>[red-de-pruebas]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Username for JSON-RPC connections</source>
+        <translation>Usuario para las conexiones JSON-RPC
+</translation>
+=======
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Esta ventana muestra información detallada sobre la transacción</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
+        <source>Warning</source>
+        <translation>Atención</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Contraseña para las conexiones JSON-RPC
+</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permite búsqueda DNS para addnode y connect
+</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Cargando direcciónes...</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Dirección -proxy invalida: '%s'</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Fondos insuficientes</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Cargando el index de bloques...</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Agrega un nodo para conectarse and attempt to keep the connection open</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Cargando cartera...</translation>
+    </message>
+    <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>No es posible desactualizar la billetera</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>No se pudo escribir la dirección por defecto</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Rescaneando...</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>Carga completa</translation>
+    </message>
+    <message>
+=======
+        <source>Options:</source>
+        <translation>Opciones:
+</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Especifica directorio para los datos
+</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Aceptar comandos consola y JSON-RPC
+</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Correr como demonio y acepta comandos
+</translation>
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>litecoin core</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Error cargando blkindex.dat</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Atención: Poco espacio en el disco duro</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Información</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Enviar informacion de seguimiento a la consola en vez del archivo debug.log</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -851,6 +1074,7 @@
         <translation>Carga completa</translation>
     </message>
     <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Error</source>
         <translation>Error</translation>
     </message>

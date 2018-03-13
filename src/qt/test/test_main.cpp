@@ -54,7 +54,11 @@ int main(int argc, char *argv[])
     SelectParams(CBaseChainParams::MAIN);
     noui_connect();
     ClearDatadirCache();
+<<<<<<< HEAD
     fs::path pathTemp = fs::temp_directory_path() / strprintf("test_defcoin-qt_%lu_%i", (unsigned long)GetTime(), (int)GetRand(100000));
+=======
+    fs::path pathTemp = fs::temp_directory_path() / strprintf("test_litecoin-qt_%lu_%i", (unsigned long)GetTime(), (int)GetRand(100000));
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     fs::create_directories(pathTemp);
     gArgs.ForceSetArg("-datadir", pathTemp.string());
 
@@ -72,7 +76,11 @@ int main(int argc, char *argv[])
     // Don't remove this, it's needed to access
     // QApplication:: and QCoreApplication:: in the tests
     QApplication app(argc, argv);
+<<<<<<< HEAD
     app.setApplicationName("Defcoin-Qt-test");
+=======
+    app.setApplicationName("Litecoin-Qt-test");
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
     SSL_library_init();
 

@@ -22,7 +22,11 @@
 			<integer>370</integer>
 			<integer>156</integer>
 		</array>
+<<<<<<< HEAD
 		<key>Defcoin-Qt.app</key>
+=======
+		<key>Litecoin-Qt.app</key>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 		<array>
 			<integer>128</integer>
 			<integer>156</integer>

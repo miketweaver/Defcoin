@@ -956,7 +956,11 @@ class SegWitTest(BitcoinTestFramework):
         assert(self.test_node.last_message["getdata"].inv[0].type == blocktype)
         self.test_node.test_witness_block(block1, True)
 
+<<<<<<< HEAD
         # Defcoin: Blocks with nVersion < VB_TOP_BITS are rejected
+=======
+        # Litecoin: Blocks with nVersion < VB_TOP_BITS are rejected
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
         # self.test_node.announce_block_and_wait_for_getdata(block2, use_header=True)
         # assert(self.test_node.last_message["getdata"].inv[0].type == blocktype)
@@ -1013,7 +1017,11 @@ class SegWitTest(BitcoinTestFramework):
             assert_equal(rpc_details["weight"], weight)
 
             # Upgraded node should not ask for blocks from unupgraded
+<<<<<<< HEAD
             # Defcoin: Blocks with nVersion < VB_TOP_BITS are rejected
+=======
+            # Litecoin: Blocks with nVersion < VB_TOP_BITS are rejected
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
             block4 = self.build_next_block(nVersion=(VB_TOP_BITS | (1<<15)))
             block4.solve()
             self.old_node.getdataset = set()
@@ -1947,7 +1955,11 @@ class SegWitTest(BitcoinTestFramework):
         self.test_premature_coinbase_witness_spend()
         self.test_uncompressed_pubkey()
         self.test_signature_version_1()
+<<<<<<< HEAD
         # Defcoin: Disable test due to occasional travis issue
+=======
+        # Litecoin: Disable test due to occasional travis issue
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         #self.test_non_standard_witness()
         sync_blocks(self.nodes)
         self.test_upgrade_after_activation(node_id=2)

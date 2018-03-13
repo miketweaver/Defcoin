@@ -46,12 +46,21 @@
         <translation>Duke marr adresen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Këto janë Defcoin adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Këto janë Defcoin adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Këto janë Litecoin adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Këto janë Litecoin adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -214,8 +223,13 @@
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -784,8 +798,13 @@
         <translation>Opsionet:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Berthama Defcoin</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Berthama Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Information</source>

@@ -33,7 +33,11 @@
 #include "validationinterface.h"
 
 #if defined(NDEBUG)
+<<<<<<< HEAD
 # error "Defcoin cannot be compiled without assertions."
+=======
+# error "Litecoin cannot be compiled without assertions."
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 #endif
 
 std::atomic<int64_t> nTimeBestReceived(0); // Used only to inform the wallet of when we last received a block

@@ -54,12 +54,21 @@
         <translation>Adresa de primire</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Acestea sunt adresele tale Defcoin pentru efectuarea platilor. Intotdeauna verifica atent suma de plata si adresa beneficiarului inainte de a trimite monede.</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Acestea sunt adresele tale Defcoin pentru receptionarea platilor. Este recomandat sa folosesti mereu o adresa noua pentru primirea platilor.</translation>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Acestea sunt adresele tale Litecoin pentru efectuarea platilor. Intotdeauna verifica atent suma de plata si adresa beneficiarului inainte de a trimite monede.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Acestea sunt adresele tale Litecoin pentru receptionarea platilor. Este recomandat sa folosesti mereu o adresa noua pentru primirea platilor.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -230,8 +239,13 @@
         <translation>Se reindexează blocurile pe disc...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Trimite monede către o adresă Defcoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Trimite monede către o adresă Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -254,8 +268,13 @@
         <translation>&amp;Verifică mesaj...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -282,12 +301,21 @@
         <translation>Criptează cheile private ale portofelului dvs.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Semnaţi mesaje cu adresa dvs. Defcoin pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Defcoin specificată</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Semnaţi mesaje cu adresa dvs. Litecoin pentru a dovedi că vă aparţin</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Litecoin specificată</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -306,8 +334,13 @@
         <translation>Bara de unelte</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Cereţi plăţi (generează coduri QR şi defcoin-uri: URls)</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Cereţi plăţi (generează coduri QR şi litecoin-uri: URls)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -318,16 +351,26 @@
         <translation>Arată lista de adrese pentru primire şi etichetele</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>Deschidere defcoin: o adresa URI sau o cerere de plată</translation>
+=======
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Deschidere litecoin: o adresa URI sau o cerere de plată</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opţiuni linie de &amp;comandă</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Defcoin network</source>
         <translation><numerusform>%n conexiune activă către reţeaua Defcoin</numerusform><numerusform>%n conexiuni active către reţeaua Defcoin</numerusform><numerusform>%n de conexiuni active către reţeaua Defcoin</numerusform></translation>
+=======
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n conexiune activă către reţeaua Litecoin</numerusform><numerusform>%n conexiuni active către reţeaua Litecoin</numerusform><numerusform>%n de conexiuni active către reţeaua Litecoin</numerusform></translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -732,16 +775,26 @@
         <translation>Cheltuire rest neconfirmat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Deschide automat în router portul aferent clientului Defcoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+=======
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului Litecoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapare port folosind &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Defcoin network through a SOCKS5 proxy.</source>
         <translation>Conectare la reţeaua Defcoin printr-un proxy SOCKS.</translation>
+=======
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>Conectare la reţeaua Litecoin printr-un proxy SOCKS.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -801,7 +854,11 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+<<<<<<< HEAD
         <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de defcoin.</translation>
+=======
+        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de litecoin.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -841,7 +898,11 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
+<<<<<<< HEAD
         <translation>Adresa defcoin pe care aţi specificat-o nu este validă.</translation>
+=======
+        <translation>Adresa litecoin pe care aţi specificat-o nu este validă.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
 </context>
 <context>
@@ -851,8 +912,13 @@
         <translation>Form</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Defcoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Litecoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Watch-only:</source>
@@ -940,8 +1006,13 @@
         <translation>Cantitate</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Defcoin address (e.g. %1)</source>
         <translation>Introduceţi o adresă Defcoin (de exemplu %1)</translation>
+=======
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>Introduceţi o adresă Litecoin (de exemplu %1)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 d</source>
@@ -1240,8 +1311,13 @@
         <translation>R&amp;efoloseşte o adresă de primire (nu este recomandat)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Defcoin network.</source>
         <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Defcoin.</translation>
+=======
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Litecoin.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1472,8 +1548,13 @@
         <translation>Aceasta este o tranzacţie normală.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address to send the payment to</source>
         <translation>Adresa defcoin către care se face plata</translation>
+=======
+        <source>The Litecoin address to send the payment to</source>
+        <translation>Adresa litecoin către care se face plata</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Alt+A</source>
@@ -1500,8 +1581,13 @@
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the defcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Defcoin network.</source>
         <translation>un mesaj a fost ataşat la defcoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua defcoin.</translation>
+=======
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>un mesaj a fost ataşat la litecoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua litecoin.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Pay To:</source>
@@ -1537,7 +1623,11 @@
         <translation>&amp;Semnează mesaj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address to sign the message with</source>
+=======
+        <source>The Litecoin address to sign the message with</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Adresa cu care semnaţi mesajul</translation>
     </message>
     <message>
@@ -1569,8 +1659,13 @@
         <translation>Copiază semnatura curentă în clipboard-ul sistemului</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
         <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Defcoin</translation>
+=======
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1589,12 +1684,21 @@
         <translation>&amp;Verifică mesaj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address the message was signed with</source>
         <translation>Introduceţi o adresă Defcoin</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
         <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Defcoin specificată</translation>
+=======
+        <source>The Litecoin address the message was signed with</source>
+        <translation>Introduceţi o adresă Litecoin</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Litecoin specificată</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1702,8 +1806,13 @@
         <translation>Rulează în fundal ca un demon şi acceptă comenzi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Nucleul Defcoin</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Nucleul Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

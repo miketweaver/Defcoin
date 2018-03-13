@@ -62,7 +62,11 @@
         <translation>آدرس های گیرنده</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>اینها آدرس های شما برای فرستادن پرداخت هاست. همیشه قبل از فرستادن سکه ها مقدار و آدرس دریافت کننده را چک کنید.</translation>
     </message>
     <message>
@@ -298,8 +302,13 @@
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>ارسال وجه به نشانی Defcoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>ارسال وجه به نشانی Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -322,8 +331,13 @@
         <translation>با&amp;زبینی پیام...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -350,12 +364,21 @@
         <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Defcoin خود امضا کنید</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>برای حصول اطمینان از اینکه پیام با نشانی Defcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Litecoin خود امضا کنید</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -374,8 +397,13 @@
         <translation>نوارابزار برگه‌ها</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>درخواست پرداخت ( تولید کد کیوار و ادرس defcoin)</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس litecoin)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -386,16 +414,26 @@
         <translation>نمایش لیست آدرس های دریافت و لیبل ها</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>بازکردن یک defcoin: آدرس یا درخواست پرداخت</translation>
+=======
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>بازکردن یک litecoin: آدرس یا درخواست پرداخت</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>گزینه‌های خط‌فرمان</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Defcoin network</source>
         <translation><numerusform>%n ارتباط فعال با شبکهٔ Defcoin</numerusform></translation>
+=======
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n ارتباط فعال با شبکهٔ Litecoin</numerusform></translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -642,8 +680,13 @@
         <translation>ویرایش آدرس قرستنده</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Defcoin address.</source>
         <translation>نشانی وارد شده "%1" یک نشانی معتبر Defcoin نیست.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>نشانی وارد شده "%1" یک نشانی معتبر Litecoin نیست.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -852,8 +895,13 @@
         <translation>استخراج</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>باز کردن خودکار درگاه شبکهٔ Defcoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+=======
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>باز کردن خودکار درگاه شبکهٔ Litecoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -951,8 +999,13 @@
         <translation>فرم</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Defcoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Litecoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Available:</source>
@@ -1016,8 +1069,13 @@
         <translation>مبلغ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Defcoin address (e.g. %1)</source>
         <translation>یک آدرس Defcoin وارد کنید (مثلاً %1)</translation>
+=======
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>یک آدرس Litecoin وارد کنید (مثلاً %1)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 d</source>
@@ -1476,8 +1534,13 @@
         <translation>این یک پرداخت عادی است</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address to send the payment to</source>
         <translation>نشانی Defcoin برای ارسال پرداخت به آن</translation>
+=======
+        <source>The Litecoin address to send the payment to</source>
+        <translation>نشانی Litecoin برای ارسال پرداخت به آن</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Alt+A</source>
@@ -1529,8 +1592,13 @@
         <translation>ا&amp;مضای پیام</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address to sign the message with</source>
         <translation>نشانی Defcoin برای امضاء پیغام با آن</translation>
+=======
+        <source>The Litecoin address to sign the message with</source>
+        <translation>نشانی Litecoin برای امضاء پیغام با آن</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1561,7 +1629,11 @@
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
+=======
+        <source>Sign the message to prove you own this Litecoin address</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
     </message>
     <message>
@@ -1581,12 +1653,21 @@
         <translation>&amp;شناسایی پیام</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address the message was signed with</source>
         <translation>نشانی Defcoin که پیغام با آن امضاء شده</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
         <translation>برای حصول اطمینان از اینکه پیام با نشانی Defcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+=======
+        <source>The Litecoin address the message was signed with</source>
+        <translation>نشانی Litecoin که پیغام با آن امضاء شده</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1702,8 +1783,13 @@
         <translation>اجرا در پشت زمینه به‌صورت یک سرویس و پذیرش دستورات</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation> هسته Defcoin </translation>
+=======
+        <source>Litecoin Core</source>
+        <translation> هسته Litecoin </translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

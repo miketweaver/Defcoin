@@ -186,8 +186,13 @@
         <translation>Đánh chỉ số (indexing) lại các khối (blocks) trên ổ đĩa ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Gửi coins đến tài khoản Defcoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Gửi coins đến tài khoản Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -206,8 +211,13 @@
         <translation>&amp;Tin nhắn xác thực</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -234,12 +244,21 @@
         <translation>Mã hoá các khoá bí mật trong Ví của bạn.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Dùng địa chỉ Defcoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Defcoin xác định.</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Dùng địa chỉ Litecoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Litecoin xác định.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -258,8 +277,13 @@
         <translation>Thanh công cụ (toolbar)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Defcoin: URLs)</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Litecoin: URLs)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -270,8 +294,13 @@
         <translation>Hiện thỉ danh sách các địa chỉ và nhãn đã dùng để nhận.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>Mở defcoin:URL hoặc yêu cầu thanh toán</translation>
+=======
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Mở litecoin:URL hoặc yêu cầu thanh toán</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -536,8 +565,13 @@
         <translation>Ví</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Defcoin network through a SOCKS5 proxy.</source>
         <translation>Kết nối đến máy chủ Defcoin thông qua SOCKS5 proxy.</translation>
+=======
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>Kết nối đến máy chủ Litecoin thông qua SOCKS5 proxy.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1018,8 +1052,13 @@
         <translation>Lựa chọn:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Core</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>(default: %u)</source>

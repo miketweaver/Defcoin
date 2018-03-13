@@ -62,11 +62,19 @@
         <translation>כתובות לקבלה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>אלו הן כתובות לייטקוין שלך לשליחת תשלומים. חשוב לבדוק את כמות הכתובות המקבלות לפני שליחת מטבעות.</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>אלו הן כתובות לייטקוין שלך לשליחת תשלומים. חשוב לבדוק את כמות הכתובות המקבלות לפני שליחת מטבעות.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>אלו הן כתובות לייטקוין שלך לקבלת תשלומים. מומלץ להשתמש בכתובת חדשה לכל העברה.</translation>
     </message>
     <message>
@@ -168,7 +176,11 @@
         <translation>אימות הצפנת הארנק</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEFCOINS&lt;/b&gt;!</source>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>אזהרה: איבוד מילת הצופן לאחר הצפנת הארנק עשויה לגרום לכך &lt;b&gt;שכל הביטקוינים שלך יאבדו&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -180,7 +192,11 @@
         <translation>הארנק מוצפן</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your defcoins from being stolen by malware infecting your computer.</source>
+=======
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>%1 ייסגר כעת כדי לסיים את תהליך ההצפנה. נא לשים לב כי הצפנת הארנק שלך לא יכול להגן על הביטקוינים שלך מפני גניבה או נוזקה שתוקפת את מחשבך.</translation>
     </message>
     <message>
@@ -338,7 +354,11 @@
         <translation>המקטעים נוספים למפתח בכונן…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
+=======
+        <source>Send coins to a Litecoin address</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>שליחת מטבעות לכתובת לייטקוין</translation>
     </message>
     <message>
@@ -362,7 +382,11 @@
         <translation>&amp;אימות הודעה…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
+=======
+        <source>Litecoin</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>לייטקוין</translation>
     </message>
     <message>
@@ -390,11 +414,19 @@
         <translation>הצפנת המפתחות הפרטיים ששייכים לארנק שלך</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>חתום על הודעות עם כתובות לייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>חתום על הודעות עם כתובות לייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת לייטקוין מסוימות</translation>
     </message>
     <message>
@@ -414,8 +446,13 @@
         <translation>סרגל כלים לשוניות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :defcoin)</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :litecoin)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,7 +463,11 @@
         <translation>הצגת רשימת הכתובות והתוויות הנמצאות בשימוש</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
+=======
+        <source>Open a litecoin: URI or payment request</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>פתיחת לייטקוין: כתובת משאב או בקשת תשלום</translation>
     </message>
     <message>
@@ -434,7 +475,11 @@
         <translation>אפשרויות &amp;שורת הפקודה</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Defcoin network</source>
+=======
+        <source>%n active connection(s) to Litecoin network</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation><numerusform>חיבור אחד פעיל לרשת לייטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת לייטקוין</numerusform></translation>
     </message>
     <message>
@@ -470,7 +515,11 @@
         <translation>עדכני</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Defcoin command-line options</source>
+=======
+        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>יש להציג את הודעת העזרה של %1 כדי להציג רשימה עם אפשרויות שורת פקודה לייטקוין</translation>
     </message>
     <message>
@@ -532,7 +581,11 @@
         <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;נעול&lt;/b&gt; כרגע</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fatal error occurred. Defcoin can no longer continue safely and will quit.</source>
+=======
+        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>אירעה שגיאה חמורה. אין אפשרות להשתמש עוד בלייטקוין באופן מאובטח והיישום ייסגר.</translation>
     </message>
 </context>
@@ -714,7 +767,11 @@
         <translation>עריכת כתובת השליחה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Defcoin address.</source>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>הכתובת שהוקלדה „%1” היא אינה כתובת לייטקוין תקנית.</translation>
     </message>
     <message>
@@ -918,6 +975,7 @@
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
         <translation>להפעיל את %1 אוטומטית לאחר הכניסה למערכת.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
@@ -1517,6 +1575,607 @@
         <translation>זמן המענה</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>&amp;Start %1 on system login</source>
+        <translation>ה&amp;פעלת %1 עם הכניסה למערכת</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>גודל מ&amp;טמון מסד הנתונים</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>מ״ב</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>מספר תהליכי ה&amp;אימות של הסקריפט</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>קבלת חיבורים מבחוץ</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>לאפשר חיבורים נכנסים</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>כתובת ה־IP של המתווך (לדוגמה IPv4: 127.0.0.1‏ / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>כתובות צד־שלישי (כגון: סייר מקטעים) שמופיעים בלשונית ההעברות בתור פריטים בתפריט ההקשר. %s בכתובת מוחלף בגיבוב ההעברה. מספר כתובות יופרדו בפס אנכי |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>כתובות העברה צד־שלישי</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>אפשרויות פעילות בשורת הפקודה שדורסות את האפשרויות שלהלן:</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>איפוס כל אפשרויות התכנית לבררת המחדל.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;איפוס אפשרויות</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;רשת</translation>
+    </message>
+    <message>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = אוטומטי, &lt;0 = להשאיר כזאת כמות של ליבות חופשיות)</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>&amp;ארנק</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>מומחה</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>הפעלת תכונות &amp;בקרת מטבעות</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>אם אפשרות ההשקעה של עודף בלתי מאושר תנוטרל, לא ניתן יהיה להשתמש בעודף מההעברה עד שלהעברה יהיה לפחות אישור אחד. פעולה זו גם משפיעה על חישוב המאזן שלך.</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>עודף &amp;בלתי מאושר מההשקעה</translation>
+    </message>
+    <message>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>פתיחת הפתחה של לייטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>מיפוי פתחה באמצעות UPnP</translation>
+    </message>
+    <message>
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>התחבר לרשת לייטקוין דרך פרוקסי SOCKS5.</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>כתובת ה־IP של המ&amp;תווך:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;פתחה:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>הפתחה של המתווך (למשל 9050)</translation>
+    </message>
+    <message>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
+    </message>
+    <message>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;חלון</translation>
+    </message>
+    <message>
+        <source>&amp;Hide the icon from the system tray.</source>
+        <translation>ה&amp;סתרת הסמל ממגש המערכת.</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>הסתרת הסמל במגש המערכת</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>הצג סמל מגש בלבד לאחר מזעור החלון.</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>מ&amp;זעור למגש במקום לשורת המשימות</translation>
+    </message>
+    <message>
+        <source>M&amp;inimize on close</source>
+        <translation>מ&amp;זעור עם סגירה</translation>
+    </message>
+    <message>
+        <source>&amp;Display</source>
+        <translation>ת&amp;צוגה</translation>
+    </message>
+    <message>
+        <source>User Interface &amp;language:</source>
+        <translation>&amp;שפת מנשק המשתמש:</translation>
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
+        <translation>ניתן להגדיר כאן את שפת מנשק המשתמש. הגדרה זו תיכנס לתוקף לאחר הפעלה של %1 מחדש.</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>י&amp;חידת מידה להצגת כמויות:</translation>
+    </message>
+    <message>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>ניתן לבחור את בררת המחדל ליחידת החלוקה שתוצג במנשק ובעת שליחת מטבעות.</translation>
+    </message>
+    <message>
+        <source>Whether to show coin control features or not.</source>
+        <translation>האם להציג תכונות שליטת מטבע או לא.</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;אישור</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;ביטול</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>בררת מחדל</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ללא</translation>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>אישור איפוס האפשרויות</translation>
+    </message>
+    <message>
+        <source>Client restart required to activate changes.</source>
+        <translation>נדרשת הפעלה מחדש של הלקוח כדי להפעיל את השינויים.</translation>
+    </message>
+    <message>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>הלקוח יכבה. להמשיך?</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>שינוי זה ידרוש הפעלה מחדש של תכנית הלקוח.</translation>
+    </message>
+    <message>
+        <source>The supplied proxy address is invalid.</source>
+        <translation>כתובת המתווך שסופקה אינה תקינה.</translation>
+    </message>
+</context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>טופס</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת לייטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
+    </message>
+    <message>
+        <source>Watch-only:</source>
+        <translation>צפייה בלבד:</translation>
+    </message>
+    <message>
+        <source>Available:</source>
+        <translation>זמין:</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>היתרה הזמינה הנוכחית</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>בהמתנה:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>הסכום הכולל של העברות שטרם אושרו ועדיין אינן נספרות בחישוב היתרה הזמינה</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>לא בשל:</translation>
+    </message>
+    <message>
+        <source>Mined balance that has not yet matured</source>
+        <translation>מאזן שנכרה וטרם הבשיל</translation>
+    </message>
+    <message>
+        <source>Balances</source>
+        <translation>מאזנים</translation>
+    </message>
+    <message>
+        <source>Total:</source>
+        <translation>סך הכול:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>סך כל היתרה הנוכחית שלך</translation>
+    </message>
+    <message>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>המאזן הנוכחי שלך בכתובות לקריאה בלבד</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>ניתנים לבזבוז</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>העברות אחרונות</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>העברות בלתי מאושרות לכתובות לצפייה בלבד</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>מאזן לאחר כרייה בכתובות לצפייה בלבד שעדיין לא הבשילו</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>המאזן הכולל הנוכחי בכתובות לצפייה בלבד</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>Payment request error</source>
+        <translation>שגיאת בקשת תשלום</translation>
+    </message>
+    <message>
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>לא ניתן להפעיל את המקשר litecoin: click-to-pay</translation>
+    </message>
+    <message>
+        <source>URI handling</source>
+        <translation>טיפול בכתובות</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>כתובת תשלום שגויה %1</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>בקשת התשלום נדחתה</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>רשת בקשת התשלום אינה תואמת לרשת הלקוח.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>בקשת התשלום פגה.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>בקשת התשלום לא הופעלה.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>בקשות תשלום לתסריטי תשלום מותאמים אישית שלא עברו וידוא אינן נתמכות.</translation>
+    </message>
+    <message>
+        <source>Invalid payment request.</source>
+        <translation>בקשת תשלום שגויה.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>זיכוי מאת %1</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>שגיאה בעת יצירת קשר עם %1:‏ %2</translation>
+    </message>
+    <message>
+        <source>Payment request cannot be parsed!</source>
+        <translation>לא ניתן לפענח את בקשת התשלום!</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>תגובה שגויה מהשרת %1</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>שגיאת בקשת רשת</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>התשלום אושר</translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>User Agent</source>
+        <translation>סוכן משתמש</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>כמות</translation>
+    </message>
+    <message>
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>נא להזין כתובת לייטקוין (למשל: %1)</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 ימים</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 שעות</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 דקות</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 שניות</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ללא</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>לא זמין</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 מילישניות</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>שנייה אחת</numerusform><numerusform>%n שניות</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>דקה אחת</numerusform><numerusform>%n דקות</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>שעה אחת</numerusform><numerusform>%n שעות</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>יום אחד</numerusform><numerusform>%n ימים</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>שבוע אחד</numerusform><numerusform>%n שבועות</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 ו%2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>שנה אחת</numerusform><numerusform>%n שנים</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>הסגירה של %1 לא הושלמה בהצלחה עדיין…</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>שגיאה: תיקיית הנתונים שצוינה „%1” אינה קיימת.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>שגיאה: לא ניתן לפענח את התצורה: %1. יש להשתמש אך ורק בתחביר מפתח=ערך.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>שגיאה: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;שמירת תמונה…</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>העתקת ת&amp;מונה</translation>
+    </message>
+    <message>
+        <source>Save QR Code</source>
+        <translation>שמירת קוד QR</translation>
+    </message>
+    <message>
+        <source>PNG Image (*.png)</source>
+        <translation>תמונת PNG (‏‎*.png)</translation>
+    </message>
+</context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>N/A</source>
+        <translation>לא זמין</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>גרסת מנשק</translation>
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>מי&amp;דע</translation>
+    </message>
+    <message>
+        <source>Debug window</source>
+        <translation>חלון ניפוי</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>כללי</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>שימוש ב־BerkeleyDB גרסה</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>Datadir</translation>
+    </message>
+    <message>
+        <source>Startup time</source>
+        <translation>זמן עלייה</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>רשת</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>שם</translation>
+    </message>
+    <message>
+        <source>Number of connections</source>
+        <translation>מספר חיבורים</translation>
+    </message>
+    <message>
+        <source>Block chain</source>
+        <translation>שרשרת מקטעים</translation>
+    </message>
+    <message>
+        <source>Current number of blocks</source>
+        <translation>מספר המקטעים הנוכחי</translation>
+    </message>
+    <message>
+        <source>Memory Pool</source>
+        <translation>מאגר זכרון</translation>
+    </message>
+    <message>
+        <source>Current number of transactions</source>
+        <translation>מספר הפעולה הנוכחי</translation>
+    </message>
+    <message>
+        <source>Memory usage</source>
+        <translation>שימוש בזכרון</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>התקבלו</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>נשלחו</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;עמיתים</translation>
+    </message>
+    <message>
+        <source>Banned peers</source>
+        <translation>משתמשים חסומים</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>נא לבחור בעמית כדי להציג מידע מפורט.</translation>
+    </message>
+    <message>
+        <source>Whitelisted</source>
+        <translation>ברשימה הלבנה</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>כיוון</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>גרסה</translation>
+    </message>
+    <message>
+        <source>Starting Block</source>
+        <translation>בלוק התחלה</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>כותרות עדכניות</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>בלוקים מסונכרנים</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>סוכן משתמש</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>הקטן גודל גופן</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>הגדל גודל גופן</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>שירותים</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>דירוג חסימה</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>זמן החיבור</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>שליחה אחרונה</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>קבלה אחרונה</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>זמן המענה</translation>
+    </message>
+    <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Time Offset</source>
         <translation>הפרש זמן</translation>
     </message>
@@ -1672,7 +2331,11 @@
         <translation>ש&amp;ימוש &amp;חוזר בכתובת קבלה קיימת (לא מומלץ)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Defcoin network.</source>
+=======
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת לייטקוין.</translation>
     </message>
     <message>
@@ -2029,7 +2692,11 @@
         <translation>תשלום של העמלה הנדרשת בלבד על סך %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Defcoin address</source>
+=======
+        <source>Warning: Invalid Litecoin address</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>אזהרה: כתובת ביטקיון שגויה</translation>
     </message>
     <message>
@@ -2072,7 +2739,11 @@
         <translation>זהו תשלום רגיל.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address to send the payment to</source>
+=======
+        <source>The Litecoin address to send the payment to</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>כתובת לייטקוין של המוטב</translation>
     </message>
     <message>
@@ -2092,7 +2763,11 @@
         <translation>הסרת רשומה זו</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less defcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+=======
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>העמלה תנוכה מהסכום שנשלח. הנמען יקבל פחות ביטקוינים ממה שהזנת בשדה הסכום. אם נבחרו מספר נמענים, העמלה תחולק באופן שווה.</translation>
     </message>
     <message>
@@ -2112,7 +2787,11 @@
         <translation>יש להזין תווית עבור כתובת זו כדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the defcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Defcoin network.</source>
+=======
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>הודעה שצורפה לייטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת לייטקוין.</translation>
     </message>
     <message>
@@ -2153,7 +2832,11 @@
         <translation>חתימה על הו&amp;דעה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address to sign the message with</source>
+=======
+        <source>The Litecoin address to sign the message with</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>כתובת לייטקוין אתה לחתום אתה את ההודעה</translation>
     </message>
     <message>
@@ -2185,7 +2868,11 @@
         <translation>העתקת החתימה הנוכחית ללוח הגזירים</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
+=======
+        <source>Sign the message to prove you own this Litecoin address</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת לייטקוין הזו בבעלותך.</translation>
     </message>
     <message>
@@ -2205,11 +2892,19 @@
         <translation>&amp;אימות הודעה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address the message was signed with</source>
         <translation>כתובת לייטקוין שאתה נחתמה ההודעה</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
+=======
+        <source>The Litecoin address the message was signed with</source>
+        <translation>כתובת לייטקוין שאתה נחתמה ההודעה</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת לייטקוין הנתונה</translation>
     </message>
     <message>
@@ -2714,7 +3409,11 @@
         <translation>ריצה כסוכן ברקע וקבלת פקודות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
+=======
+        <source>Litecoin Core</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>ליבת לייטקוין</translation>
     </message>
     <message>

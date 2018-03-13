@@ -62,12 +62,21 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Need on sinu Defcoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Need on sinu Defcoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Litecoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu Litecoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +177,13 @@
         <translation>Kinnita rahakoti krüpteerimine.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEFCOINS&lt;/b&gt;!</source>
         <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA DEFCOINID&lt;/b&gt;!</translation>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA LITECOINID&lt;/b&gt;!</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -290,8 +304,13 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Saada münte Defcoini aadressile</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Saada münte Litecoini aadressile</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -314,8 +333,13 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -342,12 +366,21 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Omandi tõestamiseks allkirjasta sõnumid oma Defcoini aadressiga</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Defcoini aadressiga</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Litecoini aadressiga</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Litecoini aadressiga</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -366,20 +399,34 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Loo maksepäring (genereerib QR koodid ja defcoini: URId)</translation>
     </message>
     <message>
         <source>Open a defcoin: URI or payment request</source>
         <translation>Ava defcoini: URI või maksepäring</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja litecoini: URId)</translation>
+    </message>
+    <message>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Ava litecoini: URI või maksepäring</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Defcoin network</source>
         <translation><numerusform>%n aktiivne ühendus Defcoini võrku</numerusform><numerusform>%n aktiivset ühendust Defcoini võrku</numerusform></translation>
+=======
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n aktiivne ühendus Litecoini võrku</numerusform><numerusform>%n aktiivset ühendust Litecoini võrku</numerusform></translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -626,8 +673,13 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Defcoin address.</source>
         <translation>Sisestatud aadress "%1" ei ole korrektne Defcoin aadress.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne Litecoin aadress.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -756,8 +808,13 @@
         <translation>Ekspert</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Defcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+=======
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Litecoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -855,7 +912,11 @@
         <translation>Vorm</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1337,8 +1398,13 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Defcoin address</source>
         <translation>Hoiatus: Ebakorrektne Defcoin aadress</translation>
+=======
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Hoiatus: Ebakorrektne Litecoin aadress</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>(no label)</source>
@@ -1417,8 +1483,13 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address to sign the message with</source>
         <translation>Defcoin aadress millega sõnum allkirjastada</translation>
+=======
+        <source>The Litecoin address to sign the message with</source>
+        <translation>Litecoin aadress millega sõnum allkirjastada</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1449,8 +1520,13 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
         <translation>Allkirjasta sõnum Defcoini aadressi sulle kuulumise tõestamiseks</translation>
+=======
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>Allkirjasta sõnum Litecoini aadressi sulle kuulumise tõestamiseks</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1469,12 +1545,21 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Defcoin address the message was signed with</source>
         <translation>Defcoin aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Defcoini aadressiga.</translation>
+=======
+        <source>The Litecoin address the message was signed with</source>
+        <translation>Litecoin aadress millega sõnum on allkirjastatud</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Litecoini aadressiga.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1758,8 +1843,13 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoini tuumik</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoini tuumik</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

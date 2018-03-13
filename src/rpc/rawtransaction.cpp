@@ -112,7 +112,11 @@ UniValue getrawtransaction(const JSONRPCRequest& request)
             "         \"reqSigs\" : n,            (numeric) The required sigs\n"
             "         \"type\" : \"pubkeyhash\",  (string) The type, eg 'pubkeyhash'\n"
             "         \"addresses\" : [           (json array of string)\n"
+<<<<<<< HEAD
             "           \"address\"        (string) defcoin address\n"
+=======
+            "           \"address\"        (string) litecoin address\n"
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
             "           ,...\n"
             "         ]\n"
             "       }\n"
@@ -310,7 +314,11 @@ UniValue createrawtransaction(const JSONRPCRequest& request)
             "     ]\n"
             "2. \"outputs\"               (object, required) a json object with outputs\n"
             "    {\n"
+<<<<<<< HEAD
             "      \"address\": x.xxx,    (numeric or string, required) The key is the defcoin address, the numeric value (can be string) is the " + CURRENCY_UNIT + " amount\n"
+=======
+            "      \"address\": x.xxx,    (numeric or string, required) The key is the litecoin address, the numeric value (can be string) is the " + CURRENCY_UNIT + " amount\n"
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
             "      \"data\": \"hex\"      (string, required) The key is \"data\", the value is hex encoded data\n"
             "      ,...\n"
             "    }\n"
@@ -395,7 +403,11 @@ UniValue createrawtransaction(const JSONRPCRequest& request)
         } else {
             CBitcoinAddress address(name_);
             if (!address.IsValid())
+<<<<<<< HEAD
                 throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, std::string("Invalid Defcoin address: ")+name_);
+=======
+                throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, std::string("Invalid Litecoin address: ")+name_);
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
             if (setAddress.count(address))
                 throw JSONRPCError(RPC_INVALID_PARAMETER, std::string("Invalid parameter, duplicated address: ")+name_);
@@ -457,7 +469,11 @@ UniValue decoderawtransaction(const JSONRPCRequest& request)
             "         \"reqSigs\" : n,            (numeric) The required sigs\n"
             "         \"type\" : \"pubkeyhash\",  (string) The type, eg 'pubkeyhash'\n"
             "         \"addresses\" : [           (json array of string)\n"
+<<<<<<< HEAD
             "           \"12tvKAXCxZjSmdNbao16dKXC8tRWfcF5oc\"   (string) defcoin address\n"
+=======
+            "           \"12tvKAXCxZjSmdNbao16dKXC8tRWfcF5oc\"   (string) litecoin address\n"
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
             "           ,...\n"
             "         ]\n"
             "       }\n"
@@ -500,7 +516,11 @@ UniValue decodescript(const JSONRPCRequest& request)
             "  \"type\":\"type\", (string) The output type\n"
             "  \"reqSigs\": n,    (numeric) The required signatures\n"
             "  \"addresses\": [   (json array of string)\n"
+<<<<<<< HEAD
             "     \"address\"     (string) defcoin address\n"
+=======
+            "     \"address\"     (string) litecoin address\n"
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
             "     ,...\n"
             "  ],\n"
             "  \"p2sh\",\"address\" (string) address of P2SH script wrapping this redeem script (not returned if the script is already a P2SH).\n"

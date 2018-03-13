@@ -36,6 +36,10 @@ if sys.version_info.major >= 3:
 m = hmac.new(bytearray(salt, 'utf-8'), bytearray(password, 'utf-8'), digestmod)
 result = m.hexdigest()
 
+<<<<<<< HEAD
 print("String to be appended to defcoin.conf:")
+=======
+print("String to be appended to litecoin.conf:")
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 print("rpcauth="+username+":"+salt+"$"+result)
 print("Your password:\n"+password)

@@ -62,11 +62,19 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Estes são os seus endereços para enviar pagamentos. Sempre cheque a quantia e o endereço do destinatário antes de enviar moedas.</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços para enviar pagamentos. Sempre cheque a quantia e o endereço do destinatário antes de enviar moedas.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Estes são os seus endereços para receber pagamentos. É recomendado usar um novo para cada transação.</translation>
     </message>
     <message>
@@ -168,8 +176,13 @@
         <translation>Confirmar criptografia da carteira</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEFCOINS&lt;/b&gt;!</source>
         <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;PERDER TODOS OS SEUS DEFCOINS&lt;/b&gt;!</translation>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;PERDER TODOS OS SEUS LITECOINS&lt;/b&gt;!</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -304,6 +317,7 @@
     <message>
         <source>&amp;Sending addresses...</source>
         <translation>Endereço&amp;s de envio...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
@@ -338,6 +352,42 @@
         <translation>Enviar moedas para um endereço defcoin</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Endereços de &amp;recebimento...</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Abrir &amp;URI...</translation>
+    </message>
+    <message>
+        <source>Click to disable network activity.</source>
+        <translation>Clique para desativar a atividade de rede.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>Atividade de rede desativada.</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>Clique para ativar a atividade de rede.</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Sincronizando cabeçalhos (%1%)...</translation>
+    </message>
+    <message>
+        <source>Reindexing blocks on disk...</source>
+        <translation>Reindexando blocos no disco...</translation>
+    </message>
+    <message>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Enviar moedas para um endereço litecoin</translation>
+    </message>
+    <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Backup wallet to another location</source>
         <translation>Fazer cópia de segurança da carteira para uma outra localização</translation>
     </message>
@@ -358,8 +408,13 @@
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -386,12 +441,21 @@
         <translation>Criptografar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Assine mensagens com seus endereços Defcoin para provar que você é dono delas</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Defcoin específicos</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços Litecoin para provar que você é dono delas</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Litecoin específicos</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -410,8 +474,13 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Solicitações de pagamentos (gera códigos QR e defcoin: URIs)</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Solicitações de pagamentos (gera códigos QR e litecoin: URIs)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,16 +491,26 @@
         <translation>Mostrar a lista de endereços de recebimento usados ​​e rótulos</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>Abrir um defcoin: URI ou cobrança</translation>
+=======
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Abrir um litecoin: URI ou cobrança</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opções de linha de &amp;comando</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Defcoin network</source>
         <translation><numerusform>%n conexão ativa na rede Defcoin</numerusform><numerusform>%n conexões ativas na rede Defcoin</numerusform></translation>
+=======
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n conexão ativa na rede Litecoin</numerusform><numerusform>%n conexões ativas na rede Litecoin</numerusform></translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -474,8 +553,13 @@
         <translation>Atualizado</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Defcoin command-line options</source>
         <translation>Mostrar a mensagem de ajuda do %1 para obter uma lista com possíveis opções de linha de comando Defcoin</translation>
+=======
+        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+        <translation>Mostrar a mensagem de ajuda do %1 para obter uma lista com possíveis opções de linha de comando Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 client</source>
@@ -544,8 +628,13 @@
         <translation>Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fatal error occurred. Defcoin can no longer continue safely and will quit.</source>
         <translation>Um erro fatal ocorreu. Defcoin não pode continuar em segurança e irá fechar.</translation>
+=======
+        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+        <translation>Um erro fatal ocorreu. Litecoin não pode continuar em segurança e irá fechar.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
 </context>
 <context>
@@ -738,7 +827,11 @@
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Defcoin address.</source>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>O endereço digitado "%1" não é um endereço válido.</translation>
     </message>
     <message>
@@ -847,8 +940,13 @@
         <translation>Como essa é a primeira vez que o programa é executado, você pode escolher onde %1 armazenará seus dados.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will download and store a copy of the Defcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>O %1 irá baixar e armazenar uma cópia do block chain do Defcoin. Pelo menos %2GB de dados serão armazenados neste diretório, e ele crescerá ao longo do tempo. A carteira também será armazenada neste diretório.</translation>
+=======
+        <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O %1 irá baixar e armazenar uma cópia do block chain do Litecoin. Pelo menos %2GB de dados serão armazenados neste diretório, e ele crescerá ao longo do tempo. A carteira também será armazenada neste diretório.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -882,11 +980,19 @@
         <translation>Formulário</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the defcoin network, as detailed below.</source>
         <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
     </message>
     <message>
         <source>Attempting to spend defcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+=======
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
+    </message>
+    <message>
+        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Gastar moedas de transações desconhecidas podem não ser aceitas pela rede.</translation>
     </message>
     <message>
@@ -896,6 +1002,7 @@
     <message>
         <source>Unknown...</source>
         <translation>Desconhecido...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Last block time</source>
@@ -922,6 +1029,34 @@
         <translation>Ocultar</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Horário do último bloco</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progresso</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>Aumento do progresso por hora</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>calculando...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>Tempo estimado para sincronizar</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Ocultar</translation>
+    </message>
+    <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Unknown. Syncing Headers (%1)...</source>
         <translation>Desconhecido. Sincronizando cabeçalhos (%1)...</translation>
     </message>
@@ -1044,16 +1179,26 @@
         <translation>Ga&amp;star mudança não confirmada</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Abrir as portas do cliente Defcoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
+=======
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir as portas do cliente Litecoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear porta usando &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Defcoin network through a SOCKS5 proxy.</source>
         <translation>Conectar na rede Defcoin através de um proxy SOCKS5.</translation>
+=======
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>Conectar na rede Litecoin através de um proxy SOCKS5.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1092,8 +1237,13 @@
         <translation>Tor</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Defcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Conecte-se à rede Defcoin através de um proxy SOCKS5 separado para utilizar serviços ocultos Tor.</translation>
+=======
+        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Conecte-se à rede Litecoin através de um proxy SOCKS5 separado para utilizar serviços ocultos Tor.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1141,7 +1291,11 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+<<<<<<< HEAD
         <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar defcoins.</translation>
+=======
+        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar litecoins.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1191,8 +1345,13 @@
         <translation>Formulário</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Defcoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Litecoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1266,8 +1425,13 @@
         <translation>Erro no pedido de pagamento</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot start defcoin: click-to-pay handler</source>
         <translation>Não foi possível iniciar defcoin: manipulador click-to-pay</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Não foi possível iniciar litecoin: manipulador click-to-pay</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>URI handling</source>
@@ -1282,7 +1446,11 @@
         <translation>Endereço de pagamento %1 inválido</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Defcoin address or malformed URI parameters.</source>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>URI não pode ser analisado! Isto pode ser causado por um endereço inválido ou parâmetros URI informados incorretamente.</translation>
     </message>
     <message>
@@ -1376,8 +1544,13 @@
         <translation>Quantidade</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Defcoin address (e.g. %1)</source>
         <translation>Informe um endereço Defcoin (ex: %1)</translation>
+=======
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>Informe um endereço Litecoin (ex: %1)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 d</source>
@@ -1390,6 +1563,7 @@
     <message>
         <source>%1 m</source>
         <translation>%1 m</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>%1 s</source>
@@ -2724,6 +2898,1342 @@
         <translation>Recebido</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nenhum</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dia</numerusform><numerusform>%n dias</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 e %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n ano</numerusform><numerusform>%n anos</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>%1 ainda não terminou com segurança...</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Erro: diretório de dados especificado "%1" não existe.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Erro: Não foi possível interpretar arquivo de configuração: %1. Utilize apenas a sintaxe chave=valor.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>Erro: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Savar imagem</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>&amp;Copiar imagem</translation>
+    </message>
+    <message>
+        <source>Save QR Code</source>
+        <translation>Salvar código QR</translation>
+    </message>
+    <message>
+        <source>PNG Image (*.png)</source>
+        <translation>Imagem PNG (*.png)</translation>
+    </message>
+</context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>Versão do cliente</translation>
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informação</translation>
+    </message>
+    <message>
+        <source>Debug window</source>
+        <translation>Janela de depuração</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Geral</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Versão do BerkeleyDB</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>Datadir</translation>
+    </message>
+    <message>
+        <source>Startup time</source>
+        <translation>Horário de inicialização</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Rede</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nome</translation>
+    </message>
+    <message>
+        <source>Number of connections</source>
+        <translation>Número de conexões</translation>
+    </message>
+    <message>
+        <source>Block chain</source>
+        <translation>Corrente de blocos</translation>
+    </message>
+    <message>
+        <source>Current number of blocks</source>
+        <translation>Quantidade atual de blocos</translation>
+    </message>
+    <message>
+        <source>Memory Pool</source>
+        <translation>Pool de Memória</translation>
+    </message>
+    <message>
+        <source>Current number of transactions</source>
+        <translation>Número atual de transações</translation>
+    </message>
+    <message>
+        <source>Memory usage</source>
+        <translation>Uso de memória</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>Recebido</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Enviado</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Pares</translation>
+    </message>
+    <message>
+        <source>Banned peers</source>
+        <translation>Nós banidos</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Selecione um cliente para ver informações detalhadas.</translation>
+    </message>
+    <message>
+        <source>Whitelisted</source>
+        <translation>Lista branca</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Direção</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versão</translation>
+    </message>
+    <message>
+        <source>Starting Block</source>
+        <translation>Bloco inicial</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>Cabeçalhos Sincronizados</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>Blocos Sincronizados</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>User Agent</translation>
+    </message>
+    <message>
+        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o arquivo de log de depuração do %1 localizado no diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>Diminuir o tamanho da fonte</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>Aumentar o tamanho da fonte</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Serviços</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>Banir pontuação</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Tempo de conexão </translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>Ultimo Envio</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Ultimo Recebido</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping</translation>
+    </message>
+    <message>
+        <source>The duration of a currently outstanding ping.</source>
+        <translation>A duração de um ping excepcional no momento.</translation>
+    </message>
+    <message>
+        <source>Ping Wait</source>
+        <translation>Espera de ping</translation>
+    </message>
+    <message>
+        <source>Min Ping</source>
+        <translation>Ping min</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>Offset de tempo</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Horário do último bloco</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Abrir</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Console</translation>
+    </message>
+    <message>
+        <source>&amp;Network Traffic</source>
+        <translation>Tráfico de Rede</translation>
+    </message>
+    <message>
+        <source>&amp;Clear</source>
+        <translation>&amp;Limpar</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation>Totais</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>Entrada:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Saída:</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>Arquivo de log de depuração</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Limpar console</translation>
+    </message>
+    <message>
+        <source>1 &amp;hour</source>
+        <translation>1 &amp;hora</translation>
+    </message>
+    <message>
+        <source>1 &amp;day</source>
+        <translation>1 &amp;dia</translation>
+    </message>
+    <message>
+        <source>1 &amp;week</source>
+        <translation>1 &amp;semana</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1 &amp;ano</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation>&amp;Desconectar</translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation>Banir por</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>&amp;Desbanir</translation>
+    </message>
+    <message>
+        <source>Welcome to the %1 RPC console.</source>
+        <translation>Bem-vindo ao console RPC do %1</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Use as setas para cima e para baixo para navegar pelo histórico, e &lt;b&gt;Ctrl-L&lt;/b&gt; para limpar a tela.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Digite &lt;b&gt;help&lt;/b&gt; para uma visão geral dos comandos disponíveis.</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
+        <translation>AVISO: Scammers atacam essa área, dizendo aos usuários que comandos digitar aqui, roubando informações da carteira. Não use este console sem entender completamente as ramificações do comando.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Atividade da rede disativada</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>(node id: %1)</source>
+        <translation>(id do nó: %1)</translation>
+    </message>
+    <message>
+        <source>via %1</source>
+        <translation>por %1</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nunca</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Entrada</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Saída</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Sim</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Não</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Desconhecido</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>Qu&amp;antia:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Rótulo:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Mensagem</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Reutilize um dos endereços de recebimento anteriormente utilizados. Reutilizar um endereço implica em problemas com segurança e privacidade. Não reutilize a menos que esteja refazendo uma cobrança já feita anteriormente.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>R&amp;eutilize um endereço de recebimento (não recomendado)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede Litecoin.</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>Um marcador opcional para associar ao novo endereço de recebimento.</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>Use esse formulário para fazer cobranças. Todos os campos são &lt;b&gt;opcionais&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>Uma quantia opcional para cobrar. Deixe vazio ou em branco se o pagador puder especificar a quantia.</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Limpa todos os campos do formulário.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Limpar</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>Histórico de cobranças</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>&amp;Requisitar Pagamento</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>Mostra a cobrança selecionada (o mesmo que clicar duas vezes em um registro)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mostrar</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>Remove o registro selecionado da lista</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Remover</translation>
+    </message>
+    <message>
+        <source>Copy URI</source>
+        <translation>Copiar URI</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copiar rótulo</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Copiar mensagem</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copiar quantia</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>Código QR</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>Copiar &amp;URI</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Copiar Endereço</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Salvar Imagem...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>Pedido de pagamento para %1</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>Informação do pagamento</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Endereço</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantia</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Rótulo</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensagem</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>URI resultante muito longa. Tente reduzir o texto do rótulo ou da mensagem.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Erro ao codigicar o URI em código QR</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Rótulo</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensagem</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sem rótulo)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(sem mensagem)</translation>
+    </message>
+    <message>
+        <source>(no amount requested)</source>
+        <translation>(nenhuma quantia solicitada)</translation>
+    </message>
+    <message>
+        <source>Requested</source>
+        <translation>Solicitado</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Enviar moedas</translation>
+    </message>
+    <message>
+        <source>Coin Control Features</source>
+        <translation>Opções de controle de moeda</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>Entradas...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>automaticamente selecionado</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Saldo insuficiente!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Quantidade:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Quantia:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Taxa:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Depois da taxa:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>troco</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Se essa opção for ativada e o endereço de troco estiver vazio ou inválido, o troco será enviado a um novo endereço gerado na hora.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>Endereço específico de troco</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Taxa de transação: </translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Escolher</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>Ocultar painel</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>por kilobyte</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa personalizada for definida em 1000 satoshis e a transação tiver somente 250 bytes, então "por kilobyte" somente paga 250 satoshis de taxa, enquanto "pelo menos" paga 1000 satoshis. Se a transação for maior que 1 kilobyte, ambos pagam por kilobyte.</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Ocultar</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>pelo menos</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <translation>Pagando apenas a taxa mínima é bom, desde que haja pouco volume de transações. Mas esteja ciente de que isso pode acabar em uma transação nunca confirmanda uma vez que há mais demanda por transações do que a rede pode processar.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(Leia o popup)</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Recomendado:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>Personalizado:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(Smart fee não iniciado. Isso requer alguns blocos...)</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normal</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>rápido </translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Enviar para vários destinatários de uma só vez</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>Adicionar destinatário</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Limpar todos os campos do formulário.</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Poeira:</translation>
+    </message>
+    <message>
+        <source>Confirmation time target:</source>
+        <translation>Confirmando tempo alvo:</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Limpar Tudo</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Saldo:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Confirmar o envio</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>Enviar</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Copiar quantia</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copiar quantia</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Copiar taxa</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Copiar pós taxa</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Copiar bytes</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Copiar poeira</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Copiar troco</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 a %2</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Tem certeza que deseja enviar?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>adicionado como taxa da transação </translation>
+    </message>
+    <message>
+        <source>Total Amount %1</source>
+        <translation>Quantia tota %1</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>ou</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Confirme o envio de moedas</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>Endereço de envio inváido. Favor checar.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>A quantia à pagar deve ser maior que 0</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>A quantia excede o seu saldo</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>O total excede o seu saldo quando a taxa da transação %1 é incluída</translation>
+    </message>
+    <message>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Endereço duplicado encontrado: Endereços devem ser usados somente uma vez cada.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Falha na criação da transação</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected with the following reason: %1</source>
+        <translation>A transação foi negada pela seguinte razão: %1</translation>
+    </message>
+    <message>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>Uma taxa maior que %1 é considerada uma taxa absurdamente alta.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>Pedido de pagamento expirado</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n block(s)</source>
+        <translation><numerusform>%n bloco</numerusform><numerusform>%n blocos</numerusform></translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>Pagar somente a taxa requerida de %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Confirmação em %n bloco.</numerusform><numerusform>Confirmação em %n blocos.</numerusform></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Aviso: Endereço inválido</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Aviso: Endereço de troco inválido</translation>
+    </message>
+    <message>
+        <source>Confirm custom change address</source>
+        <translation>Confirmar endereço de troco personalizado</translation>
+    </message>
+    <message>
+        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
+        <translation>O endereço selecionado para o troco não pertence a esta carteira. Alguns ou todos os fundos da sua carteira modem ser mandados para esse endereço. Tem certeza?</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sem rótulo)</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>Q&amp;uantidade:</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>Pagar &amp;Para:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Rótulo:</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Escolher endereço usado anteriormente</translation>
+    </message>
+    <message>
+        <source>This is a normal payment.</source>
+        <translation>Este é um pagamento normal.</translation>
+    </message>
+    <message>
+        <source>The Litecoin address to send the payment to</source>
+        <translation>Endereço que enviará o pagamento</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Colar o endereço da área de transferência</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Remove this entry</source>
+        <translation>Remover esta entrada</translation>
+    </message>
+    <message>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>A taxa será deduzida da quantia que está sendo enviada. O destinatário receberá menos litecoins do que você colocou no campo de quantidade. Se vários destinatários estão selecionados, a taxa é dividida igualmente.</translation>
+    </message>
+    <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>&amp;Retirar taxa da quantia</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Mensagem:</translation>
+    </message>
+    <message>
+        <source>This is an unauthenticated payment request.</source>
+        <translation>Esta é uma cobrança não autenticada.</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation>Esta é uma cobrança autenticada.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Digite um rótulo para este endereço para adicioná-lo no catálogo</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>A mensagem que foi anexada ao litecoin: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Litecoin.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Pague Para:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Memorizar:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Digite um rótulo para este endereço para adicioná-lo ao catálogo de endereços</translation>
+    </message>
+</context>
+<context>
+    <name>SendConfirmationDialog</name>
+    <message>
+        <source>Yes</source>
+        <translation>Sim</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>%1 is shutting down...</source>
+        <translation>%1 está desligando...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Não desligue o computador até que esta janela desapareça.</translation>
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Assinaturas - Assinar / Verificar uma mensagem</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Assinar mensagem</translation>
+    </message>
+    <message>
+        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Você pode assinar mensagens com seus endereços para provar que você pode receber litecoins enviados por alguém. Cuidado para não assinar nada vago ou aleatório, pois ataques phishing podem tentar te enganar para assinar coisas para eles como se fosse você. Somente assine termos bem detalhados que você concorde.</translation>
+    </message>
+    <message>
+        <source>The Litecoin address to sign the message with</source>
+        <translation>O enderesso Litecoin que assinará a mensagem</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Escolha um endereço usado anteriormente</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Colar o endereço da área de transferência</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Entre a mensagem que você quer assinar aqui</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Assinatura</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Copiar a assinatura para a área de transferência do sistema</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>Assinar mensagem para provar que você é dono deste endereço Litecoin</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Assinar &amp;mensagem</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Limpar todos os campos de assinatura da mensagem</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Limpar Tudo</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Verificar mensagem</translation>
+    </message>
+    <message>
+        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation>Coloque o endereço do autor, a mensagem (certifique-se de copiar toda a mensagem, incluindo quebras de linha, espaços, tabulações, etc.) e a assinatura embaixo para verificar a mensagem. Cuidado para não ler mais da assinatura do que está assinado na mensagem, para evitar ser enganado pelo ataque man-in-the-middle. Note que isso somente prova a propriedade de um endereço, e não o remetende de qualquer transação.</translation>
+    </message>
+    <message>
+        <source>The Litecoin address the message was signed with</source>
+        <translation>O enderesso Litecoin que assionou a mesnagem</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Litecoin específico.</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>Verificar &amp;mensagem</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Limpar todos os campos de assinatura da mensagem</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Clique em "Assinar mensagem" para gerar a assinatura</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>O endereço digitado é inválido</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Favor checar o endereço e tente novamente</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>O endereço fornecido não se refere a uma chave.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>O desbloqueio da carteira foi cancelado</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>A chave privada do endereço inserido não está disponível</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Falha ao assinar mensagem</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Mensagem assinada</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>A assinatura não pode ser descodificada</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Favor checar a assinatura e tente novamente</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>A assinatura não corresponde a mensagem</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Falha na verificação da mensagem</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Mensagem verificada</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Abrir para mais %n bloco</numerusform><numerusform>Abrir para mais %n blocos</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Aberto até %1</translation>
+    </message>
+    <message>
+        <source>conflicted with a transaction with %1 confirmations</source>
+        <translation>conflitado com uma transação com %1 confirmações</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/offline</translation>
+    </message>
+    <message>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/não confirmado, %1</translation>
+    </message>
+    <message>
+        <source>in memory pool</source>
+        <translation>na memória</translation>
+    </message>
+    <message>
+        <source>not in memory pool</source>
+        <translation>não na memóra</translation>
+    </message>
+    <message>
+        <source>abandoned</source>
+        <translation>abandonado</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/não confirmado</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 confirmações</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ainda não foi propagada na rede com êxito.</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, transmitido aravés de %n nó</numerusform><numerusform>, transmitido aravés de %n nós</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Fonte</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Gerado</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>desconhecido</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Para</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>próprio endereço</translation>
+    </message>
+    <message>
+        <source>watch-only</source>
+        <translation>monitorado</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>rótulo</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Crédito</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>maduro em mais %n bloco</numerusform><numerusform>maduro em mais %n blocos</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>não aceito</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Débito</translation>
+    </message>
+    <message>
+        <source>Total debit</source>
+        <translation>Débito total</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>Crédito total</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Taxa da transação</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Valor líquido</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensagem</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Comentário</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID da transação</translation>
+    </message>
+    <message>
+        <source>Transaction total size</source>
+        <translation>Tamanho tota da transação</translation>
+    </message>
+    <message>
+        <source>Output index</source>
+        <translation>Index da saída</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Mercador</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Moedas recém minerados precisam aguardar %1 blocos antes de serem gastos. Quando o bloco foi gerado, ele foi disseminado pela rede para ser adicionado à blockchain. Se ele falhar em ser inserido na cadeia, seu estado será modificado para "não aceito" e ele não poderá ser gasto. Isso pode acontecer eventualmente quando blocos são gerados quase que simultaneamente.</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Depurar informação</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transação</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Entradas</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantia</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>verdadeiro</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>falso</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Este painel mostra uma descrição detalhada da transação</translation>
+    </message>
+    <message>
+        <source>Details for %1</source>
+        <translation>Detalhes para %1</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Rótulo</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Aberto por mais %n bloco</numerusform><numerusform>Aberto por mais %n blocos</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Aberto até %1</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>Offline</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Não confirmado</translation>
+    </message>
+    <message>
+        <source>Abandoned</source>
+        <translation>Abandonado</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Confirmando (%1 de %2 confirmações recomendadas)</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Confirmado (%1 confirmações)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>Conflitado</translation>
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Recém-criado (%1 confirmações, disponível somente após %2)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Este bloco não foi recebido por nenhum outro participante da rede e provavelmente não será aceito!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Gerado mas não aceito</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Recebido</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Recebido</translation>
+    </message>
+    <message>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <source>Sent to</source>
         <translation>Enviado para</translation>
     </message>
@@ -3054,8 +4564,13 @@
         <translation>Não foi possível iniciar o servidor HTTP. Veja o log para detaihes.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Core</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>The %s developers</source>

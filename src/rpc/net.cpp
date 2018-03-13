@@ -205,8 +205,13 @@ UniValue addnode(const JSONRPCRequest& request)
             "1. \"node\"     (string, required) The node (see getpeerinfo for nodes)\n"
             "2. \"command\"  (string, required) 'add' to add a node to the list, 'remove' to remove a node from the list, 'onetry' to try a connection to the node once\n"
             "\nExamples:\n"
+<<<<<<< HEAD
             + HelpExampleCli("addnode", "\"192.168.0.6:1337\" \"onetry\"")
             + HelpExampleRpc("addnode", "\"192.168.0.6:1337\", \"onetry\"")
+=======
+            + HelpExampleCli("addnode", "\"192.168.0.6:9333\" \"onetry\"")
+            + HelpExampleRpc("addnode", "\"192.168.0.6:9333\", \"onetry\"")
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         );
 
     if(!g_connman)
@@ -294,7 +299,11 @@ UniValue getaddednodeinfo(const JSONRPCRequest& request)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [                    (list of objects) Only when connected = true\n"
             "       {\n"
+<<<<<<< HEAD
             "         \"address\" : \"192.168.0.201:1337\",  (string) The defcoin server IP and port we're connected to\n"
+=======
+            "         \"address\" : \"192.168.0.201:9333\",  (string) The litecoin server IP and port we're connected to\n"
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "     ]\n"

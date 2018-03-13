@@ -531,8 +531,13 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
+<<<<<<< HEAD
     const std::string URL_SOURCE_CODE = "<https://github.com/NaH012/defcoin>";
     const std::string URL_WEBSITE = "<http://defcoin-ng.org>";
+=======
+    const std::string URL_SOURCE_CODE = "<https://github.com/litecoin-project/litecoin>";
+    const std::string URL_WEBSITE = "<https://litecoin.org>";
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -830,7 +835,11 @@ void InitLogging()
     fLogIPs = gArgs.GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+<<<<<<< HEAD
     LogPrintf("Defcoin version %s\n", FormatFullVersion());
+=======
+    LogPrintf("Litecoin version %s\n", FormatFullVersion());
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 }
 
 namespace { // Variables internal to initialization process only

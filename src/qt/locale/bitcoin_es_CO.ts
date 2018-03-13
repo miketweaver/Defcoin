@@ -126,8 +126,13 @@
         <translation>Abrir &amp;URL...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Enviando monedas a una dirección de Defcoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Enviando monedas a una dirección de Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -146,8 +151,13 @@
         <translation>&amp;Verificar Mensaje...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -296,8 +306,13 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Core</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Insufficient funds</source>

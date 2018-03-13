@@ -62,12 +62,21 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Defcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
         <source>These are your Defcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Това са Вашите Defcoin адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са Вашите Litecoin адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,7 +177,11 @@
         <translation>Потвърдете на шифрирането на портфейла</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEFCOINS&lt;/b&gt;!</source>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ БИТКОИНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -330,7 +343,11 @@
         <translation>Повторно индексиране на блоковете на диска...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
+=======
+        <source>Send coins to a Litecoin address</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Изпращане към Биткоин адрес</translation>
     </message>
     <message>
@@ -354,7 +371,11 @@
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
+=======
+        <source>Litecoin</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -382,12 +403,21 @@
         <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Пишете съобщения със своя Defcoin адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Defcoin адреси.</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Пишете съобщения със своя Litecoin адрес за да докажете,че е ваш.</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Litecoin адреси.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,8 +436,13 @@
         <translation>Раздели</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and defcoin: URIs)</source>
         <translation>Изискване на плащания(генерира QR кодове и Defcoin: URIs)</translation>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и Litecoin: URIs)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,8 +453,13 @@
         <translation>Покажи списък с използваните адреси и имена.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a defcoin: URI or payment request</source>
         <translation>Отворете Defcoin: URI  или заявка за плащане</translation>
+=======
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Отворете Litecoin: URI  или заявка за плащане</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -462,8 +502,13 @@
         <translation>Синхронизиран</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Defcoin command-line options</source>
         <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Defcoin команди</translation>
+=======
+        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Litecoin команди</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 client</source>
@@ -706,7 +751,11 @@
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Defcoin address.</source>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>"%1" не е валиден Биткоин адрес.</translation>
     </message>
     <message>
@@ -928,16 +977,26 @@
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматично отваряне на входящия Defcoin порт. Работи само с рутери поддържащи UPnP.</translation>
+=======
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия Litecoin порт. Работи само с рутери поддържащи UPnP.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Defcoin network through a SOCKS5 proxy.</source>
         <translation>Свързване с Defcoin мрежата чрез SOCKS5  прокси.</translation>
+=======
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>Свързване с Litecoin мрежата чрез SOCKS5  прокси.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1031,7 +1090,11 @@
         <translation>Формуляр</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
@@ -1086,8 +1149,13 @@
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot start defcoin: click-to-pay handler</source>
         <translation>Defcoin не можe да се стартира: click-to-pay handler</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Litecoin не можe да се стартира: click-to-pay handler</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>URI handling</source>
@@ -1160,8 +1228,13 @@
         <translation>Сума</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Defcoin address (e.g. %1)</source>
         <translation>Въведете Defcoin адрес (например: %1)</translation>
+=======
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>Въведете Litecoin адрес (например: %1)</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>%1 d</source>
@@ -1713,8 +1786,13 @@
         <translation>Заявката за плащане е изтекла.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Defcoin address</source>
         <translation>Внимание: Невалиден Defcoin адрес</translation>
+=======
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Внимание: Невалиден Litecoin адрес</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1833,7 +1911,11 @@
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
+=======
+        <source>Sign the message to prove you own this Litecoin address</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1849,7 +1931,11 @@
         <translation>&amp;Провери</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
+=======
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
     </message>
     <message>
@@ -2370,8 +2456,13 @@
         <translation>Въведете Ваш публичен адрес</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin ядро</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin ядро</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

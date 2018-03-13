@@ -130,7 +130,11 @@ QLabel { color: rgb(40,40,40);  }</string>
              <item>
               <widget class="QLabel" name="infoText">
                <property name="text">
+<<<<<<< HEAD
                 <string>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the defcoin network, as detailed below.</string>
+=======
+                <string>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</string>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
                </property>
                <property name="textFormat">
                 <enum>Qt::RichText</enum>
@@ -149,7 +153,11 @@ QLabel { color: rgb(40,40,40);  }</string>
                 </font>
                </property>
                <property name="text">
+<<<<<<< HEAD
                 <string>Attempting to spend defcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</string>
+=======
+                <string>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</string>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
                </property>
                <property name="textFormat">
                 <enum>Qt::RichText</enum>

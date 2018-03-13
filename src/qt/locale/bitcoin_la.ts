@@ -114,8 +114,13 @@
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Defcoin address</source>
         <translation>Mitte nummos ad inscriptionem Defcoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Mitte nummos ad inscriptionem Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -138,8 +143,13 @@
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin</source>
         <translation>Defcoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Wallet</source>
@@ -166,12 +176,21 @@
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Defcoin addresses to prove you own them</source>
         <translation>Signa nuntios cum tuis inscriptionibus Defcoin ut demonstres te eas possidere</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Defcoin addresses</source>
         <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Defcoin</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus Litecoin ut demonstres te eas possidere</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>&amp;File</source>
@@ -346,8 +365,13 @@
         <translation>Cassidile</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Defcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Aperi per se portam clientis Defcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+=======
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Litecoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -425,8 +449,13 @@
         <translation>Schema</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Defcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Defcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Litecoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Immature:</source>
@@ -671,8 +700,13 @@
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Defcoin address</source>
         <translation>Signa nuntium ut demonstres hanc inscriptionem Defcoin a te possessa esse</translation>
+=======
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem Litecoin a te possessa esse</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -691,8 +725,13 @@
         <translation>&amp;Verifica Nuntium</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Defcoin address</source>
         <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Defcoin</translation>
+=======
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Litecoin</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -768,8 +807,13 @@
         <translation>Operare infere sicut daemon et mandata accipe</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Defcoin Core</source>
         <translation>Defcoin Nucleus</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Nucleus</translation>
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

@@ -531,7 +531,11 @@ void BitcoinApplication::shutdownResult()
 
 void BitcoinApplication::handleRunawayException(const QString &message)
 {
+<<<<<<< HEAD
     QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Defcoin can no longer continue safely and will quit.") + QString("\n\n") + message);
+=======
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Litecoin can no longer continue safely and will quit.") + QString("\n\n") + message);
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
     ::exit(EXIT_FAILURE);
 }
 

@@ -31,7 +31,11 @@ class ZMQTest (BitcoinTestFramework):
         config.read_file(open(self.options.configfile))
 
         if not config["components"].getboolean("ENABLE_ZMQ"):
+<<<<<<< HEAD
             raise SkipTest("defcoind has not been built with zmq enabled.")
+=======
+            raise SkipTest("litecoind has not been built with zmq enabled.")
+>>>>>>> 567c0d737f0f3ab65977fcabaa1483e449d69702
 
         self.zmqContext = zmq.Context()
         self.zmqSubSocket = self.zmqContext.socket(zmq.SUB)
