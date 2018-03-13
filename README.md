@@ -72,3 +72,19 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     make -f Makefile.test
     ./defcoin-qt_test
 
+=======
+### To Do
+
+Rename the Defcoin units from mDFC and μDFC in favor of a more flavorful name.
+This is stored in the file ```src/qt/bitcoinunits.cpp``` on lines 43 - 45
+```
+    case BTC: return QString("DFC");
+    case mBTC: return QString("mDFC");
+    case uBTC: return QString::fromUtf8("μDFC");
+```
+and on lines 54 - 56
+```
+    case BTC: return QString("Defcoins");
+    case mBTC: return QString("Milli-Defcoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-Defcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+```
