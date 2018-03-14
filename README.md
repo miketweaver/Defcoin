@@ -1,12 +1,13 @@
-defcoin integration/staging tree
+Defcoin integration/staging tree
 ================================
 
-http://www.defcoin.org
+http://www.defcoin-ng.org
 
-Copyright (c) 2009-2017 Bitcoin Developers
-Copyright (c) 2011-2017 defcoin Developers
+Copyright (c) 2009-2018 Bitcoin Developers<br>
+Copyright (c) 2011-2018 Litecoin Developers<br>
+Copyright (c) 2011-2018 Defcoin Developers
 
-What is defcoin?
+What is Defcoin?
 ----------------
 
 defcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
@@ -72,8 +73,8 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     make -f Makefile.test
     ./defcoin-qt_test
 
-=======
-### To Do
+----------------------------------
+## To Do
 
 Rename the Defcoin units from mDFC and μDFC in favor of a more flavorful name.
 This is stored in the file ```src/qt/bitcoinunits.cpp``` on lines 43 - 45
