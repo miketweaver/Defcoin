@@ -1,6 +1,8 @@
 Defcoin integration/staging tree
 ================================
 
+![Build Status](https://travis-ci.org/NaH012/test.svg?branch=master)](https://travis-ci.org/NaH012/test)
+
 http://www.defcoin-ng.org
 
 Copyright (c) 2009-2018 Bitcoin Developers<br>
