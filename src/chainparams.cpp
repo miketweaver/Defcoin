@@ -217,10 +217,10 @@ public:
         nDefaultPort = 31337;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1394002925, 386295993, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1521070968, 522824, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0xf5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x732ea7ab196f84a29bcb0a32314ae42ab88c70dffdd7f4fb758a46126ba61815"));
+        assert(genesis.hashMerkleRoot == uint256S("0x7294da28c1b8eeba868388b14e2205874fb512f0ca31c2f583002557175f2c9c"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
