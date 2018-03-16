@@ -236,13 +236,7 @@ BOOST_AUTO_TEST_CASE(CreateNewBlock_validity)
         pblock->hashMerkleRoot = BlockMerkleRoot(*pblock);
         pblock->nNonce = blockinfo[i].nonce;
         std::shared_ptr<const CBlock> shared_pblock = std::make_shared<const CBlock>(*pblock);
-	bool tmpCheck = ProcessNewBlock(chainparams, shared_pblock, true, nullptr);
-	if(tmpCheck){
-		printf("Pass");
-	}else{
-		printf("FAIL");
-	}
-        BOOST_CHECK(tmpCheck);
+        BOOST_CHECK(ProcessNewBlock(chainparams, shared_pblock, true, nullptr));
         pblock->hashPrevBlock = pblock->GetHash();
     }
 

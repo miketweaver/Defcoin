@@ -104,7 +104,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000002ebcfe2dd9eff82666");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x59c9b9d3fec105bdc716d84caa7579503d5b05b73618d0bf2d5fa639f780a011"); //1353397
+        consensus.defaultAssumeValid = uint256S("0x4a21187ff56cb657d441cba499daa700e74ebe0d90c7accdd5f22b9958df41f8"); //828691
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -179,10 +179,10 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 840000;
-        consensus.BIP34Height = 76;
-        consensus.BIP34Hash = uint256S("8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573");
-        consensus.BIP65Height = 76; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
-        consensus.BIP66Height = 76; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
+        consensus.BIP34Height = 0;
+        consensus.BIP34Hash = uint256S("732ea7ab196f84a29bcb0a32314ae42ab88c70dffdd7f4fb758a46126ba61815");
+        consensus.BIP65Height = 0; // 732ea7ab196f84a29bcb0a32314ae42ab88c70dffdd7f4fb758a46126ba61815
+        consensus.BIP66Height = 0; // 732ea7ab196f84a29bcb0a32314ae42ab88c70dffdd7f4fb758a46126ba61815
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
         consensus.nPowTargetSpacing = 2.5 * 60;
@@ -208,7 +208,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000007d006a402163e");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xa0afbded94d4be233e191525dc2d467af5c7eab3143c852c3cd549831022aad6"); //343833
+        consensus.defaultAssumeValid = uint256S("0x732ea7ab196f84a29bcb0a32314ae42ab88c70dffdd7f4fb758a46126ba61815"); //0
 
         pchMessageStart[0] = 0xfc;
         pchMessageStart[1] = 0xc1;
