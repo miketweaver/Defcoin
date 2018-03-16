@@ -239,7 +239,7 @@ BOOST_AUTO_TEST_CASE(CreateNewBlock_validity)
 	bool tmpCheck = ProcessNewBlock(chainparams, shared_pblock, true, nullptr);
 	if(tmpCheck){
 		printf("Pass");
-	else{
+	}else{
 		printf("FAIL");
 	}
         BOOST_CHECK(tmpCheck);
