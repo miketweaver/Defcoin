@@ -80,8 +80,8 @@ public:
         consensus.BIP65Height = 1828326; // 57bae90a3342fac0bae15eb2ac9a8924779984bc301ae67730dfda6df49b203c
         consensus.BIP66Height = 1828326; // 57bae90a3342fac0bae15eb2ac9a8924779984bc301ae67730dfda6df49b203c
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
-        consensus.nPowTargetSpacing = 2.5 * 60;
+        consensus.nPowTargetTimespan = 1 * 24 * 60 * 60; // 3.5 days
+        consensus.nPowTargetSpacing = 2 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 6048; // 75% of 8064
@@ -127,7 +127,7 @@ public:
         vSeeds.emplace_back("seed.defcoin-ng.org", true);
         vSeeds.emplace_back("seed2.defcoin-ng.org", true);
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
