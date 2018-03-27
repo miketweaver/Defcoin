@@ -12,22 +12,22 @@ Copyright (c) 2011-2018 Defcoin Developers
 What is Defcoin?
 ----------------
 
-defcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
+Defcoin is a fork of Litecoin which is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+ - 2 minute block targets
+ 
+ The rest is the same as Litecoin.
  - subsidy halves in 840k blocks (~4 years)
  - ~84 million total coins
-
-The rest is the same as Bitcoin.
  - 50 coins per block
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the defcoin client sofware, see http://www.defcoin-ng.org.
+the Defcoin client sofware, see http://www.defcoin-ng.org.
 
 License
 -------
 
-defcoin is released under the terms of the MIT license. See `COPYING` for more
+Defcoin is released under the terms of the MIT license. See [`COPYING`](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -41,7 +41,7 @@ development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
 submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development).
+[reddit](https://www.reddit.com/r/defcoin/).
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
@@ -49,36 +49,26 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
+completely stable. [Tags](https://github.com/NaH012/defcoin/tags) are created
 regularly to indicate new official, stable release versions of defcoin.
 
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
 
 ### Automated Testing
 
 Developers are strongly encouraged to write unit tests for new code, and to
 submit new unit tests for old code.
 
-Unit tests for the core code are in `src/test/`. To compile and run them:
+Unit tests for the core code are in `src/test/` and `test/`. To compile and run them:
 
-    cd src; make -f makefile.unix test
+    make check
+    python3.4 test/functional/test_runner.py
 
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
-
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./defcoin-qt_test
+Unit tests for the GUI code are in `src/qt/test/`. They are compiled with the QT code and run with `make check`
 
 ----------------------------------
 ## To Do
 
-Rename the Defcoin units from mDFC and μDFC in favor of a more flavorful name.
+Rename the Defcoin units from mDFC and μDFC in favor of a more flavorful name similar to [Litecoin](https://github.com/litecoin-project/litecoin).
 This is stored in the file ```src/qt/bitcoinunits.cpp``` on lines 43 - 45
 ```
     case BTC: return QString("DFC");
