@@ -9,7 +9,7 @@
 #include "fs.h"
 #include "intro.h"
 #include "ui_intro.h"
-
+#include "theme.h"
 #include "guiutil.h"
 
 #include "util.h"
@@ -119,6 +119,8 @@ Intro::Intro(QWidget *parent) :
     thread(0),
     signalled(false)
 {
+    themeStyleSheet css;
+    QString style = css.loadBitcoinTheme();
     ui->setupUi(this);
     ui->welcomeLabel->setText(ui->welcomeLabel->text().arg(tr(PACKAGE_NAME)));
     ui->storageLabel->setText(ui->storageLabel->text().arg(tr(PACKAGE_NAME)));
@@ -151,6 +153,7 @@ Intro::Intro(QWidget *parent) :
         tr("The wallet will also be stored in this directory.")
     );
     startThread();
+    setStyleSheet(style);
 }
 
 Intro::~Intro()

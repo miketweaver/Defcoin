@@ -8,7 +8,7 @@
 
 #include "rpcconsole.h"
 #include "ui_debugwindow.h"
-
+#include "theme.h"
 #include "bantablemodel.h"
 #include "clientmodel.h"
 #include "guiutil.h"
@@ -428,6 +428,8 @@ RPCConsole::RPCConsole(const PlatformStyle *_platformStyle, QWidget *parent) :
     banTableContextMenu(0),
     consoleFontSize(0)
 {
+    themeStyleSheet css;
+    QString style = css.debugTheme();
     ui->setupUi(this);
     QSettings settings;
     if (!restoreGeometry(settings.value("RPCConsoleWindowGeometry").toByteArray())) {
@@ -473,6 +475,7 @@ RPCConsole::RPCConsole(const PlatformStyle *_platformStyle, QWidget *parent) :
 
     consoleFontSize = settings.value(fontSizeSettingsKey, QFontInfo(QFont()).pointSize()).toInt();
     clear();
+    setStyleSheet(style);
 }
 
 RPCConsole::~RPCConsole()
@@ -709,6 +712,7 @@ void RPCConsole::setFontSize(int newSize)
 
 void RPCConsole::clear(bool clearHistory)
 {
+    themeStyleSheet css;
     ui->messagesWidget->clear();
     if(clearHistory)
     {
@@ -733,13 +737,13 @@ void RPCConsole::clear(bool clearHistory)
     ui->messagesWidget->document()->setDefaultStyleSheet(
         QString(
                 "table { }"
-                "td.time { color: #808080; font-size: %2; padding-top: 3px; } "
+                "td.time { color: %3; font-size: %2; padding-top: 3px; } "
                 "td.message { font-family: %1; font-size: %2; white-space:pre-wrap; } "
-                "td.cmd-request { color: #006060; } "
-                "td.cmd-error { color: red; } "
-                ".secwarning { color: red; }"
-                "b { color: #006060; } "
-            ).arg(fixedFontInfo.family(), QString("%1pt").arg(consoleFontSize))
+                "td.cmd-request { color: %5; } "
+                "td.cmd-error { color: %4; } "
+                ".secwarning { color: %4; }"
+                "b { color: %5; } "
+            ).arg(fixedFontInfo.family(), QString("%1pt").arg(consoleFontSize), css.rpcTimeColor, css.rpcErrorColor, css.rpcCommandColor)
         );
 
 #ifdef Q_OS_MAC

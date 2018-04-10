@@ -7,7 +7,7 @@
 #endif
 
 #include "bitcoingui.h"
-
+#include "theme.h"
 #include "bitcoinunits.h"
 #include "clientmodel.h"
 #include "guiconstants.h"
@@ -65,6 +65,7 @@
 #endif
 
 const std::string BitcoinGUI::DEFAULT_UIPLATFORM =
+#define CACHE_EXPIRE_TIME 0
 #if defined(Q_OS_MAC)
         "macosx"
 #elif defined(Q_OS_WIN)
@@ -171,6 +172,9 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *_platformStyle, const NetworkStyle *
         setCentralWidget(rpcConsole);
     }
 
+    themeStyleSheet css;
+    QString style = css.loadBitcoinTheme();
+
     // Accept D&D of URIs
     setAcceptDrops(true);
 
@@ -258,13 +262,14 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *_platformStyle, const NetworkStyle *
         connect(progressBar, SIGNAL(clicked(QPoint)), this, SLOT(showModalOverlay()));
     }
 #endif
+    setStyleSheet(style);
+
 }
 
 BitcoinGUI::~BitcoinGUI()
 {
     // Unsubscribe from notifications from core
     unsubscribeFromCoreSignals();
-
     QSettings settings;
     settings.setValue("MainWindowGeometry", saveGeometry());
     if(trayIcon) // Hide tray icon, as deleting will let it linger until quit (on Ubuntu)
@@ -273,7 +278,6 @@ BitcoinGUI::~BitcoinGUI()
     delete appMenuBar;
     MacDockIconHandler::cleanup();
 #endif
-
     delete rpcConsole;
 }
 
@@ -418,7 +422,6 @@ void BitcoinGUI::createMenuBar()
     // Get the main window's menu bar on other platforms
     appMenuBar = menuBar();
 #endif
-
     // Configure the menus
     QMenu *file = appMenuBar->addMenu(tr("&File"));
     if(walletFrame)
@@ -1202,6 +1205,7 @@ UnitDisplayStatusBarControl::UnitDisplayStatusBarControl(const PlatformStyle *pl
     optionsModel(0),
     menu(0)
 {
+    defcoinIcon themeIconStyle;
     createContextMenu();
     setToolTip(tr("Unit to show amounts in. Click to select another unit."));
     QList<BitcoinUnits::Unit> units = BitcoinUnits::availableUnits();
@@ -1213,7 +1217,11 @@ UnitDisplayStatusBarControl::UnitDisplayStatusBarControl(const PlatformStyle *pl
     }
     setMinimumSize(max_width, 0);
     setAlignment(Qt::AlignRight | Qt::AlignVCenter);
-    setStyleSheet(QString("QLabel { color : %1 }").arg(platformStyle->SingleColor().name()));
+    if(themeIconStyle.color){
+        setStyleSheet(QString("QLabel { color : %1 }").arg(themeIconStyle.ToQString(false)));
+    }else{
+        setStyleSheet(QString("QLabel { color : %1 }").arg(platformStyle->SingleColor().name()));
+    }
 }
 
 /** So that it responds to button clicks */

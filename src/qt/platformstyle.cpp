@@ -5,7 +5,7 @@
 #include "platformstyle.h"
 
 #include "guiconstants.h"
-
+#include "theme.h"
 #include <QApplication>
 #include <QColor>
 #include <QIcon>
@@ -13,6 +13,7 @@
 #include <QPalette>
 #include <QPixmap>
 
+const defcoinIcon icon;
 static const struct {
     const char *platformId;
     /** Show images on push buttons */
@@ -32,7 +33,7 @@ static const unsigned platform_styles_count = sizeof(platform_styles)/sizeof(*pl
 namespace {
 /* Local functions for colorizing single-color images */
 
-void MakeSingleColorImage(QImage& img, const QColor& colorbase)
+void MakeSingleColorImage(QImage& img, const QColor& colorbase, bool menu)
 {
     img = img.convertToFormat(QImage::Format_ARGB32);
     for (int x = img.width(); x--; )
@@ -40,33 +41,47 @@ void MakeSingleColorImage(QImage& img, const QColor& colorbase)
         for (int y = img.height(); y--; )
         {
             const QRgb rgb = img.pixel(x, y);
-            img.setPixel(x, y, qRgba(colorbase.red(), colorbase.green(), colorbase.blue(), qAlpha(rgb)));
+	    int red, blue, green;
+	    if(!menu && icon.color){
+             	red = icon.red;
+	        green = icon.green;
+	        blue = icon.blue;
+	    }else if(menu && icon.menu){
+		red = icon.menuR;
+		green = icon.menuG;
+		blue = icon.menuB;
+	    }else{
+		red = colorbase.red();
+		green = colorbase.green();
+		blue = colorbase.blue();
+	    }
+            img.setPixel(x, y, qRgba(red, green, blue, qAlpha(rgb)));
         }
     }
 }
 
-QIcon ColorizeIcon(const QIcon& ico, const QColor& colorbase)
+QIcon ColorizeIcon(const QIcon& ico, const QColor& colorbase, bool text)
 {
     QIcon new_ico;
     for (const QSize sz : ico.availableSizes())
     {
         QImage img(ico.pixmap(sz).toImage());
-        MakeSingleColorImage(img, colorbase);
+        MakeSingleColorImage(img, colorbase, text);
         new_ico.addPixmap(QPixmap::fromImage(img));
     }
     return new_ico;
 }
 
-QImage ColorizeImage(const QString& filename, const QColor& colorbase)
+QImage ColorizeImage(const QString& filename, const QColor& colorbase, bool text)
 {
     QImage img(filename);
-    MakeSingleColorImage(img, colorbase);
+    MakeSingleColorImage(img, colorbase, text);
     return img;
 }
 
-QIcon ColorizeIcon(const QString& filename, const QColor& colorbase)
+QIcon ColorizeIcon(const QString& filename, const QColor& colorbase, bool text)
 {
-    return QIcon(QPixmap::fromImage(ColorizeImage(filename, colorbase)));
+    return QIcon(QPixmap::fromImage(ColorizeImage(filename, colorbase, text)));
 }
 
 }
@@ -101,31 +116,31 @@ QImage PlatformStyle::SingleColorImage(const QString& filename) const
 {
     if (!colorizeIcons)
         return QImage(filename);
-    return ColorizeImage(filename, SingleColor());
+    return ColorizeImage(filename, SingleColor(), false);
 }
 
 QIcon PlatformStyle::SingleColorIcon(const QString& filename) const
 {
     if (!colorizeIcons)
         return QIcon(filename);
-    return ColorizeIcon(filename, SingleColor());
+    return ColorizeIcon(filename, SingleColor(), false);
 }
 
 QIcon PlatformStyle::SingleColorIcon(const QIcon& icon) const
 {
     if (!colorizeIcons)
         return icon;
-    return ColorizeIcon(icon, SingleColor());
+    return ColorizeIcon(icon, SingleColor(), false);
 }
 
 QIcon PlatformStyle::TextColorIcon(const QString& filename) const
 {
-    return ColorizeIcon(filename, TextColor());
+    return ColorizeIcon(filename, TextColor(), true);
 }
 
 QIcon PlatformStyle::TextColorIcon(const QIcon& icon) const
 {
-    return ColorizeIcon(icon, TextColor());
+    return ColorizeIcon(icon, TextColor(), true);
 }
 
 const PlatformStyle *PlatformStyle::instantiate(const QString &platformId)

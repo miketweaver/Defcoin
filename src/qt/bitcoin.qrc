@@ -1,5 +1,12 @@
 <!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/logo">
+        <file alias="defcoin">res/src/defcoin.svg</file>
+    </qresource>
     <qresource prefix="/icons">
+	<file alias="disabled_up_arrow">res/icons/disabled_up_arrow.png</file>
+	<file alias="disabled_down_arrow">res/icons/disabled_down_arrow.png</file>
+	<file alias="up_arrow">res/icons/up_arrow.png</file>
+	<file alias="down_arrow">res/icons/down_arrow.png</file>
         <file alias="bitcoin">res/icons/bitcoin.png</file>
         <file alias="defcoin_splash">res/icons/defcoin_splash.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
