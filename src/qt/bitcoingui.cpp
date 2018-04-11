@@ -65,7 +65,7 @@
 #endif
 
 const std::string BitcoinGUI::DEFAULT_UIPLATFORM =
-#define CACHE_EXPIRE_TIME 0
+
 #if defined(Q_OS_MAC)
         "macosx"
 #elif defined(Q_OS_WIN)
