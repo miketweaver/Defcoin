@@ -1,6 +1,6 @@
 <!DOCTYPE RCC><RCC version="1.0">
     <qresource prefix="/logo">
-        <file alias="defcoin">res/src/defcoin.svg</file>
+        <file alias="defcoin">res/src/defcoin.png</file>
     </qresource>
     <qresource prefix="/icons">
 	<file alias="disabled_up_arrow">res/icons/disabled_up_arrow.png</file>
