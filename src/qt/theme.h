@@ -52,7 +52,8 @@ class themeStyleSheet{
 			css = "QDialog, QFrame, #scrollAreaWidgetContents, QGroupBox {background-color: #444444; color: #CCCCCC;}";
 			css += "QStatusBar, QStatusBar QFrame, #helpMessage, QPlainTextEdit {background-color: #333333;}";
 			css += "#frame, #frame_2, #frameFee, #scrollArea, #frame2, QGroupBox, #helpMessage, QPlainTextEdit {border: 1px solid #CCCCCC;}";
-			css += "QGroupBox {margin-top: 22%;}";
+     		        css += "QGroupBox {margin-top: 25px;}";
+                        css += "QGroupBox:title {subcontrol-origin: margin; subcontrol-position: left top;}";
 			css += "QWidget QFrame #line {border-top: 1px solid #CCCCCC;}";
 			css += "#HelpMessageDialog #frame, #HelpMessageDialog #scrollArea {border: 0;}";
 			css += "#ModalOverlay #contentWidget {background-color: #444444; border: 0; color: #cccccc;}";
@@ -83,6 +84,7 @@ class themeStyleSheet{
 				css += "QProgressBar::chunk {background: " + colors.ToQString(false) + ";}";
 			css += "QProgressBar::chunk {border-radius: 0px; border: 0px;}";
 			css += "QStatusBar {color: #CCCCCC;}";
+                        css += "QStatusBar::item {border: 0;}";
 
 			css += "*:!enabled {color: #666666;}";
 			css += "QPushButton:!enabled {border-color: #333333; background-color: #353535;}";
