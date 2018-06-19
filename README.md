@@ -63,7 +63,12 @@ Unit tests for the core code are in `src/test/` and `test/`. To compile and run 
     make check
     python3.4 test/functional/test_runner.py
 
-Unit tests for the GUI code are in `src/qt/test/`. They are compiled with the QT code and run with `make check`
+Unit tests for the GUI code are in `src/qt/test/`. They are compiled with the Qt code and run with `make check`
+
+----------------------------------
+### Themeing
+
+The theme data for the Qt GUI is stored in `src/qt/theme.h`. 
 
 ----------------------------------
 ## To Do
