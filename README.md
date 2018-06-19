@@ -73,7 +73,7 @@ The theme data for the Qt GUI is stored in `src/qt/theme.h`.
 ----------------------------------
 ## To Do
 
-Rename the Defcoin units from mDFC and μDFC in favor of a more flavorful name similar to [Litecoin](https://github.com/litecoin-project/litecoin).
+Rename the Defcoin units from mDFC and μDFC in favor of a more flavorful name similar to [Litecoin](https://github.com/litecoin-project/litecoin/blob/master/src/qt/bitcoinunits.cpp#L43).
 This is stored in the file ```src/qt/bitcoinunits.cpp``` on lines 43 - 45
 ```
     case BTC: return QString("DFC");
