@@ -13,7 +13,7 @@
 #include <QPalette>
 #include <QPixmap>
 
-const defcoinIcon icon;
+const defcoinIcon icon {};
 static const struct {
     const char *platformId;
     /** Show images on push buttons */
