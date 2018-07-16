@@ -14,12 +14,12 @@ What is Defcoin?
 
 Defcoin is a fork of Litecoin which is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2 minute block targets
- 
+ - 720 blocks to retarget difficulty
+
  The rest is the same as Litecoin.
  - subsidy halves in 840k blocks (~4 years)
  - ~84 million total coins
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 50 coins per block. Now 25 coins after first halving event
 
 For more information, as well as an immediately useable, binary version of
 the Defcoin client sofware, see http://www.defcoin-ng.org.
@@ -74,13 +74,13 @@ The theme data for the Qt GUI is stored in `src/qt/theme.h`.
 ## To Do
 
 Rename the Defcoin units from mDFC and μDFC in favor of a more flavorful name similar to [Litecoin](https://github.com/litecoin-project/litecoin/blob/master/src/qt/bitcoinunits.cpp#L43).
-This is stored in the file ```src/qt/bitcoinunits.cpp``` on lines 43 - 45
+This is stored in the file [```src/qt/bitcoinunits.cpp```](https://github.com/nah012/defcoin/blob/master/src/qt/bitcoinunits.cpp) on [lines 43 - 45](https://github.com/nah012/defcoin/blob/master/src/qt/bitcoinunits.cpp#L43-L45)
 ```
     case BTC: return QString("DFC");
     case mBTC: return QString("mDFC");
     case uBTC: return QString::fromUtf8("μDFC");
 ```
-and on lines 54 - 56
+and on [lines 54 - 56](https://github.com/nah012/defcoin/blob/master/src/qt/bitcoinunits.cpp#L54-L56)
 ```
     case BTC: return QString("Defcoins");
     case mBTC: return QString("Milli-Defcoins (1 / 1" THIN_SP_UTF8 "000)");
