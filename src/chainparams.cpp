@@ -120,10 +120,11 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("seed.defcoin-ng.org");
-        vSeeds.emplace_back("seed2.defcoin-ng.org");
-        vSeeds.emplace_back("seed3.defcoin-ng.org");
-        vSeeds.emplace_back("seed3.defcoin-ng.org");
+        vSeeds.emplace_back("129.2.164.234");
+        vSeeds.emplace_back("107.191.119.170:1337");
+        vSeeds.emplace_back("199.204.211.87");
+        vSeeds.emplace_back("104.37.196.137");
+        vSeeds.emplace_back("137.117.89.23");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
