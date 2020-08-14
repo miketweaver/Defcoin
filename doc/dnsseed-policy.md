@@ -44,11 +44,11 @@ related to the DNS seed operation.
 If these expectations cannot be satisfied the operator should
 discontinue providing services and contact the active Defcoin
 Core development team as well as posting on
-[defcoin reddit](https://www.reddit.com/r/defcoin/).
+[defcoin-dev](https://groups.google.com/forum/#!forum/defcoin-dev).
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.
 
 See also
 ----------
-- [litecoin-seeder](https://github.com/pooler/litecoin-seeder) is a reference implementation of a DNS seed.
+- [defcoin-seeder](https://github.com/pooler/defcoin-seeder) is a reference implementation of a DNS seed.

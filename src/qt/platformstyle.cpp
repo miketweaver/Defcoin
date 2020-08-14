@@ -1,19 +1,16 @@
-// Copyright (c) 2015-2016 The Bitcoin Core developers
+// Copyright (c) 2015-2018 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "platformstyle.h"
+#include <qt/platformstyle.h>
 
-#include "guiconstants.h"
-#include "theme.h"
+#include <qt/guiconstants.h>
+
 #include <QApplication>
 #include <QColor>
-#include <QIcon>
 #include <QImage>
 #include <QPalette>
-#include <QPixmap>
 
-const defcoinIcon icon {};
 static const struct {
     const char *platformId;
     /** Show images on push buttons */
@@ -33,7 +30,7 @@ static const unsigned platform_styles_count = sizeof(platform_styles)/sizeof(*pl
 namespace {
 /* Local functions for colorizing single-color images */
 
-void MakeSingleColorImage(QImage& img, const QColor& colorbase, bool menu)
+void MakeSingleColorImage(QImage& img, const QColor& colorbase)
 {
     img = img.convertToFormat(QImage::Format_ARGB32);
     for (int x = img.width(); x--; )
@@ -41,47 +38,33 @@ void MakeSingleColorImage(QImage& img, const QColor& colorbase, bool menu)
         for (int y = img.height(); y--; )
         {
             const QRgb rgb = img.pixel(x, y);
-	    int red, blue, green;
-	    if(!menu && icon.color){
-             	red = icon.red;
-	        green = icon.green;
-	        blue = icon.blue;
-	    }else if(menu && icon.menu){
-		red = icon.menuR;
-		green = icon.menuG;
-		blue = icon.menuB;
-	    }else{
-		red = colorbase.red();
-		green = colorbase.green();
-		blue = colorbase.blue();
-	    }
-            img.setPixel(x, y, qRgba(red, green, blue, qAlpha(rgb)));
+            img.setPixel(x, y, qRgba(colorbase.red(), colorbase.green(), colorbase.blue(), qAlpha(rgb)));
         }
     }
 }
 
-QIcon ColorizeIcon(const QIcon& ico, const QColor& colorbase, bool text)
+QIcon ColorizeIcon(const QIcon& ico, const QColor& colorbase)
 {
     QIcon new_ico;
-    for (const QSize sz : ico.availableSizes())
+    for (const QSize& sz : ico.availableSizes())
     {
         QImage img(ico.pixmap(sz).toImage());
-        MakeSingleColorImage(img, colorbase, text);
+        MakeSingleColorImage(img, colorbase);
         new_ico.addPixmap(QPixmap::fromImage(img));
     }
     return new_ico;
 }
 
-QImage ColorizeImage(const QString& filename, const QColor& colorbase, bool text)
+QImage ColorizeImage(const QString& filename, const QColor& colorbase)
 {
     QImage img(filename);
-    MakeSingleColorImage(img, colorbase, text);
+    MakeSingleColorImage(img, colorbase);
     return img;
 }
 
-QIcon ColorizeIcon(const QString& filename, const QColor& colorbase, bool text)
+QIcon ColorizeIcon(const QString& filename, const QColor& colorbase)
 {
-    return QIcon(QPixmap::fromImage(ColorizeImage(filename, colorbase, text)));
+    return QIcon(QPixmap::fromImage(ColorizeImage(filename, colorbase)));
 }
 
 }
@@ -116,31 +99,31 @@ QImage PlatformStyle::SingleColorImage(const QString& filename) const
 {
     if (!colorizeIcons)
         return QImage(filename);
-    return ColorizeImage(filename, SingleColor(), false);
+    return ColorizeImage(filename, SingleColor());
 }
 
 QIcon PlatformStyle::SingleColorIcon(const QString& filename) const
 {
     if (!colorizeIcons)
         return QIcon(filename);
-    return ColorizeIcon(filename, SingleColor(), false);
+    return ColorizeIcon(filename, SingleColor());
 }
 
 QIcon PlatformStyle::SingleColorIcon(const QIcon& icon) const
 {
     if (!colorizeIcons)
         return icon;
-    return ColorizeIcon(icon, SingleColor(), false);
+    return ColorizeIcon(icon, SingleColor());
 }
 
 QIcon PlatformStyle::TextColorIcon(const QString& filename) const
 {
-    return ColorizeIcon(filename, TextColor(), true);
+    return ColorizeIcon(filename, TextColor());
 }
 
 QIcon PlatformStyle::TextColorIcon(const QIcon& icon) const
 {
-    return ColorizeIcon(icon, TextColor(), true);
+    return ColorizeIcon(icon, TextColor());
 }
 
 const PlatformStyle *PlatformStyle::instantiate(const QString &platformId)
@@ -156,6 +139,6 @@ const PlatformStyle *PlatformStyle::instantiate(const QString &platformId)
                     platform_styles[x].useExtraSpacing);
         }
     }
-    return 0;
+    return nullptr;
 }
 

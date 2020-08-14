@@ -49,12 +49,11 @@
       </property>
       <item>
        <widget class="QWidget" name="contentWidget" native="true">
-        <!-- <property name="styleSheet">
+        <property name="styleSheet">
          <string notr="true">#contentWidget { background: rgba(255,255,255,240); border-radius: 6px; }
 
 QLabel { color: rgb(40,40,40);  }</string>
         </property>
-	-->
         <layout class="QVBoxLayout" name="verticalLayoutSub" stretch="1,0,0,0">
          <property name="spacing">
           <number>0</number>
@@ -352,6 +351,12 @@ QLabel { color: rgb(40,40,40);  }</string>
              <property name="text">
               <string>Hide</string>
              </property>
+             <property name="focusPolicy">
+              <enum>Qt::StrongFocus</enum>
+             </property>
+             <property name="default">
+              <bool>true</bool>
+             </property>
             </widget>
            </item>
           </layout>
@@ -368,7 +373,7 @@ QLabel { color: rgb(40,40,40);  }</string>
   <customwidget>
    <class>ModalOverlay</class>
    <extends>QWidget</extends>
-   <header>modaloverlay.h</header>
+   <header>qt/modaloverlay.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

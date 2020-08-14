@@ -1,35 +1,23 @@
-<!--- Remove sections that do not apply -->
+<!-- This issue tracker is only for technical issues related to Defcoin Core.
 
-This issue tracker is only for technical issues related to defcoin-core.
+General defcoin questions and/or support requests and are best directed to the [defcointalk.io forums](https://defcointalk.io/).
 
-General defcoin questions and/or support requests and are best directed to the [defcoin reddit forums](https://reddit.com/r/defcoin/).
+For reporting security issues, please contact the Defcoin developers on the #defcoin-dev Freenode IRC channel or alternatively you can email us at contact@defcoin.org.
 
-### Describe the issue
+If the node is "stuck" during sync or giving "block checksum mismatch" errors, please ensure your hardware is stable by running memtest and observe CPU temperature with a load-test tool such as linpack before creating an issue! -->
 
-### Can you reliably reproduce the issue?
-#### If so, please list the steps to reproduce below:
-1.
-2.
-3.
+<!-- Describe the issue -->
+<!--- What behavior did you expect? -->
 
-### Expected behaviour
-Tell us what should happen
+<!--- What was the actual behavior (provide screenshots if the issue is GUI-related)? -->
 
-### Actual behaviour
-Tell us what happens instead
+<!--- How reliably can you reproduce the issue, what are the steps to do so? -->
 
-### Screenshots.
-If the issue is related to the GUI, screenshots can be added to this issue via drag & drop.
+<!-- What version of Defcoin Core are you using, where did you get it (website, self-compiled, etc)? -->
 
-### What version of defcoin-core are you using?
-List the version number/commit ID, and if it is an official binary, self compiled or a distribution package such as PPA.
+<!-- What type of machine are you observing the error on (OS/CPU and disk type)? -->
 
-### Machine specs:
-- OS:
-- CPU:
-- RAM:
-- Disk size:
-- Disk Type (HD/SDD):
+<!-- For the GUI-related issue on Linux provide names and versions of a distro, a desktop environment and a graphical shell (if relevant). -->
 
-### Any extra information that might be useful in the debugging process.
-This is normally the contents of a `debug.log` or `config.log` file. Raw text or a link to a pastebin type site are preferred.
+<!-- Any extra information that might be useful in the debugging process. -->
+<!--- This is normally the contents of a `debug.log` or `config.log` file. Raw text or a link to a pastebin type site are preferred. -->

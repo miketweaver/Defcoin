@@ -5,6 +5,7 @@ src/defcoin
 src/defcoind
 src/defcoin-cli
 src/defcoin-tx
+src/defcoin-wallet
 src/test/test_defcoin
 src/test/test_defcoin_fuzzy
 src/qt/test/test_defcoin-qt
@@ -44,9 +45,16 @@ src/qt/forms/ui_*.h
 
 src/qt/test/moc*.cpp
 
+src/qt/bitcoin-qt.config
+src/qt/bitcoin-qt.creator
+src/qt/bitcoin-qt.creator.user
+src/qt/bitcoin-qt.files
+src/qt/bitcoin-qt.includes
+
 .deps
 .dirstamp
 .libs
+.vscode
 .*.swp
 *.*~*
 *.bak
@@ -59,6 +67,7 @@ src/qt/test/moc*.cpp
 *.a
 *.pb.cc
 *.pb.h
+*.dat
 
 *.log
 *.trs
@@ -76,6 +85,7 @@ src/qt/test/moc*.cpp
 Makefile
 defcoin-qt
 defcoin-Qt.app
+background.tiff*
 
 # Unit-tests
 Makefile.test
@@ -83,7 +93,6 @@ defcoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
-
 # Mac specific
 .DS_Store
 build
@@ -109,3 +118,9 @@ test/cache/*
 
 libbitcoinconsensus.pc
 contrib/devtools/split-debug.sh
+
+# Output from running db4 installation
+db4/
+
+# clang-check
+*.plist
