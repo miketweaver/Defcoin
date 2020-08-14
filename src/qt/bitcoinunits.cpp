@@ -43,9 +43,9 @@ QString BitcoinUnits::longName(int unit)
     switch(unit)
     {
     case BTC: return QString("DFC");
-    case mBTC: return QString("lites");
+    case mBTC: return QString("tangs");
     case uBTC: return QString("tangents");
-    case SAT: return QString("litoshi");
+    case SAT: return QString("tangoshi");
     default: return QString("???");
     }
 }
@@ -65,9 +65,9 @@ QString BitcoinUnits::description(int unit)
     switch(unit)
     {
     case BTC: return QString("Defcoins");
-    case mBTC: return QString("Lites (1 / 1" THIN_SP_UTF8 "000)");
+    case mBTC: return QString("Tangs (1 / 1" THIN_SP_UTF8 "000)");
     case uBTC: return QString("Tangents (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-    case SAT: return QString("Litoshis (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case SAT: return QString("Tangoshis (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }
