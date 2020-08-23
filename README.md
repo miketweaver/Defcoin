@@ -1,7 +1,7 @@
 Defcoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/defcoin-project/defcoin.svg?branch=master)](https://travis-ci.org/defcoin-project/defcoin)
+[![Build Status](https://travis-ci.com/charlesrocket/Defcoin.svg?branch=master)](https://travis-ci.com/charlesrocket/Defcoin)
 
 https://defcoin.org
 
