@@ -126,7 +126,6 @@ public:
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.emplace_back("seed.defcoin-ng.org", true);
         vSeeds.emplace_back("seed2.defcoin-ng.org", true);
-        vSeeds.emplace_back("seed3.defcoin-ng.org", true);
         vSeeds.emplace_back("seed.defcoin.mikej.tech", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
